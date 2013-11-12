@@ -1,0 +1,6 @@
+baseurl:
+markdown: redcarpet
+pygments: true
+lsi: false
+permalink: /:categories/:title
+excerpt_separator: "\n\n"

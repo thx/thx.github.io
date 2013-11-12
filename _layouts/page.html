@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>THX</title>
+  <link rel="stylesheet" type="text/css" href="http://g.tbcdn.cn/thx/cube/1.0.7/??cube.css,type.css">
+  <link rel="stylesheet" type="text/css" href="/assets/gateway.css">
+</head>
+<body class="type">
+  {{ content }}
+  <script src="http://g.tbcdn.cn/kissy/k/1.4.0/seed-min.js"></script>
+  {% if page.script %}
+  <script src="{{ site.baseurl }}/{{ page.script }}"></script>
+  {% endif %}
+</body>
+</html>

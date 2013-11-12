@@ -1,0 +1,96 @@
+/*
+ * Modules
+ */
+.products .product {
+  /* Cube 中的 .dib 样式没生效，好奇怪 */
+  display: inline-block;
+  width: 280px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+/*
+ * Media queries
+ * put mobile devices first.
+ */
+@media (max-width: 799px) {
+  html, body {
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+  #page {
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 100%;
+    transition: left 0.2s;
+  }
+
+  #content {
+    height: 100%;
+    overflow: auto;
+  }
+
+  #content-wrap {
+    padding: 70px 20px 20px;
+  }
+
+  #aside {
+    position: absolute;
+    left: -200px;
+    top: 0;
+    height: 100%;
+    width: 200px;
+    background: #555;
+  }
+
+  #aside .toggler {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    width: 50px;
+    padding: 5px 10px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  #aside a:link,
+  #aside a:visited {
+    color: #f0f0f0;
+  }
+
+  #aside a:hover {
+    border-bottom: none;
+  }
+}
+
+@media (min-width: 800px) {
+  body {
+    text-align: center;
+  }
+
+  #page {
+    text-align: left;
+    width: 700px;
+    margin: 0 auto;
+  }
+
+  #aside {
+    position: fixed;
+    left: 50%;
+    top: 77px;
+    margin-left: -490px;
+    width: 140px;
+  }
+
+  #content {
+    max-width: 680px;
+    padding: 10px;
+  }
+
+  #aside .toggler {
+    display: none;
+  }
+}
+

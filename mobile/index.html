@@ -1,0 +1,11 @@
+---
+layout: post
+title: Mobile First
+---
+
+{% for category in site.categories %}
+  {% if category[0] == 'mobile' %}
+  {% assign posts = category[1] %}
+  {% include archive.html %}
+  {% endif %}
+{% endfor %}

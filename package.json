@@ -1,0 +1,8 @@
+{
+  "name": "thx.github.io",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:thx/thx.github.io.git"
+  },
+  "devDependencies": {}
+}

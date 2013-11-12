@@ -1,0 +1,36 @@
+---
+layout: page
+script: assets/post.js
+---
+
+<div id="page">
+  <div id="content">
+    <div id="content-wrap">
+      <article>
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+      </article>
+      <!-- Duoshuo Comment BEGIN -->
+      <div class="ds-thread"></div>
+      <!-- Duoshuo Comment END -->
+    </div>
+  </div>
+  <div id="aside">
+    <a href="javascript:void(0)" class="toggler" id="J_toggler">
+      <i class="iconfont">&#271;</i> 导航
+    </a>
+    <a href="/"><i class="iconfont">&#336;</i>首页</a>
+    <ul class="categories">
+    {% for category in site.categories %}{% if category[0] != 'products' %}
+      <li><a href="/{{ category[0] }}">{{ category[0] | capitalize }}</a></li>
+    {% endif %}{% endfor %}
+    </ul>
+    <ul class="products">
+      {% for category in site.categories %}{% if category[0] == 'products' %}
+      {% for product in category[1] %}
+      <li><a href="{{ product.homepage }}">{{ product.title }}</a></li>
+      {% endfor %}
+      {% endif %}{% endfor %}
+    </ul>
+  </div>
+</div>
