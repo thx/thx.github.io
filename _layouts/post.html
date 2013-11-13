@@ -19,16 +19,26 @@ script: assets/post.js
     <a href="javascript:void(0)" class="toggler" id="J_toggler">
       <i class="iconfont">&#271;</i> 导航
     </a>
-    <a href="/"><i class="iconfont">&#336;</i>首页</a>
+    <a href="/" class="logo"><i class="iconfont">&#532;</i>THX</a>
     <ul class="categories">
     {% for category in site.categories %}{% if category[0] != 'products' %}
-      <li><a href="/{{ category[0] }}">{{ category[0] | capitalize }}</a></li>
+      <li>
+        <a href="/{{ category[0] }}" class="entry">
+          <i class="iconfont category-{{ category[0] }}"></i>
+          {{ category[0] | capitalize }}
+        </a>
+      </li>
     {% endif %}{% endfor %}
     </ul>
     <ul class="products">
       {% for category in site.categories %}{% if category[0] == 'products' %}
       {% for product in category[1] %}
-      <li><a href="{{ product.homepage }}">{{ product.title }}</a></li>
+      <li>
+        <a href="{{ product.homepage }}" class="entry">
+          <i class="iconfont product-{{ product.title | downcase }}"></i>
+          {{ product.title }}
+        </a>
+      </li>
       {% endfor %}
       {% endif %}{% endfor %}
     </ul>

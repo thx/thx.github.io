@@ -1,5 +1,24 @@
 /*
- * Modules
+ * Color Palette
+ * https://kuler.adobe.com/Behance-set-color-theme-3111216
+ *
+ * #2C3E50 #FC4349 #6DBCDB #D7DADB #FFFFFF
+ */
+
+/*
+ * Basic styles
+ */
+body {
+  background: #fff;
+}
+
+.type pre code {
+  border: none;
+}
+
+
+/*
+ * Products module
  */
 .products .product {
   /* Cube 中的 .dib 样式没生效，好奇怪 */
@@ -7,6 +26,54 @@
   width: 280px;
   padding: 10px;
   font-size: 14px;
+}
+
+/*
+ * Aside styles
+ */
+#aside .logo {
+  display: block;
+  line-height: 1;
+  text-align: center;
+  margin: 1em;
+  font-family: Georgia, serif;
+}
+#aside .logo:hover {
+  border-bottom: none;
+  color: #FC4349;
+}
+#aside .logo .iconfont {
+  display: block;
+  font-size: 500%;
+}
+#aside ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#aside .entry {
+  display: block;
+  padding: 5px 10px;
+  border-bottom: 1px dotted #6DBCDB;
+}
+#aside .entry:hover {
+  color: #fff;
+  background: #2C3E50;
+}
+#aside .category-mobile:before {
+  content: '\f086';
+}
+#aside .product-brix:before {
+  content: '\007c';
+}
+#aside .product-rap:before {
+  content: '\016e';
+}
+#aside .product-magix:before {
+  content: '\0052';
+}
+#aside .product-mock:before {
+  content: '\0034';
 }
 
 /*
@@ -42,7 +109,7 @@
     top: 0;
     height: 100%;
     width: 200px;
-    background: #555;
+    background: #2C3E50;
   }
 
   #aside .toggler {
@@ -52,18 +119,20 @@
     left: 200px;
     width: 50px;
     padding: 5px 10px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(35, 52, 80, 0.8);
   }
 
   #aside a:link,
   #aside a:visited {
-    color: #f0f0f0;
+    color: #fff;
   }
 
-  #aside a:hover {
-    border-bottom: none;
+  #aside .entry:hover {
+    background: #fff;
+    color: #2C3E50;
   }
 }
+
 
 @media (min-width: 800px) {
   body {
