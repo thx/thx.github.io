@@ -8,6 +8,15 @@ script: assets/post.js
     <div id="content-wrap">
       <article>
         <h1>{{ page.title }}</h1>
+        <div class="authors">
+          {% for author in page.authors %}
+          <address>
+            <a href="{{ author.homepage }}">
+              <i class="iconfont">&#260;</i>{{ author.name }}
+            </a>
+          </address>
+          {% endfor %}
+        </div>
         {{ content }}
       </article>
       <!-- Duoshuo Comment BEGIN -->
