@@ -11,9 +11,7 @@ script: assets/post.js
         <div class="authors">
           {% for author in page.authors %}
           <address>
-            <a href="{{ author.homepage }}">
-              <i class="iconfont">&#260;</i>{{ author.name }}
-            </a>
+            <a href="{{ author.homepage }}">{{ author.name }}</a>
           </address>
           {% endfor %}
         </div>

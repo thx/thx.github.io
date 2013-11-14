@@ -1,0 +1,25 @@
+<div class="projects justify dib-box">
+  {% for category in site.categories %}{% if category[0] == include.category %}
+  {% for project in category[1] %}
+  <div class="project dib">
+    <h3 class="clearfix">
+      <a href="{{ project.homepage || project.url }}" class="title">{{ project.title }}</a>
+      <span class="links">
+        <a href="{{ project.homepage || project.url }}"><i class="iconfont">&#336;</i></a>
+        {% if project.github %}
+        <a href="https://github.com/{{ project.github }}"><i class="iconfont">&#61464;</i></a>
+        {% endif %}
+      </span>
+    </h3>
+    <div class="authors">
+      {% for author in project.authors %}
+      <a href="{{ author.homepage }}">{{ author.name }}</a>
+      {% endfor %}
+    </div>
+    <div class="summary">
+      {{ project.excerpt | markdownify }}
+    </div>
+  </div>
+  {% endfor %}
+  {% endif %}{% endfor %}
+</div>

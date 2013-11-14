@@ -17,14 +17,23 @@ body {
 }
 
 /*
- * Products module
+ * Projects module
  */
-.products .product {
+.projects .project {
   /* Cube 中的 .dib 样式没生效，好奇怪 */
   display: inline-block;
   width: 280px;
   padding: 10px;
   font-size: 14px;
+}
+.project a:hover {
+  border-bottom: none;
+}
+.project .title {
+  float: left;
+}
+.project .links {
+  float: right;
 }
 
 /*
