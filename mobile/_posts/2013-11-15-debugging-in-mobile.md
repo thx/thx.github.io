@@ -20,19 +20,19 @@ authors:
 
 首先说 Mac 是因为，木有 Mac，你 All in 个毛无线啊。一场无线 N 布斯的革命，都因苹果而生，缘苹果而疯。说一千，道一万，木有 Mac 你调戏她会累的伤筋动骨。
 
-#### 一、iphone + Mac + Safrai + 数据线调试普通页面
+#### 一、iPhone + Mac + safari + 数据线调试普通页面
 
 以 [http://thx.github.io/](http://thx.github.io/) 为例，以下全部以它为素材。
 
-iphone 上 Safrai 上打开 http://thx.github.io/，最好是连上 wifi，开始输入网址，尼玛，手机上输入网址是极差的体验，尤其对于我这种不谈钢琴不谈吉他的男子，指尖上的无线痛苦不堪。拯救你的是***二维码***，请到[http://chuangyi.taobao.com/util/qrcode](http://chuangyi.taobao.com/util/qrcode) 输入，扫它（下图），
+iPhone 上 safari 上打开 http://thx.github.io/，最好是连上 wifi，开始输入网址，尼玛，手机上输入网址是极差的体验，尤其对于我这种不谈钢琴不谈吉他的男子，指尖上的无线痛苦不堪。拯救你的是***二维码***，请到[http://chuangyi.taobao.com/util/qrcode](http://chuangyi.taobao.com/util/qrcode) 输入，扫它（下图），
 
 <div>
     <img style="width: 100%;" src="http://gtms01.alicdn.com/tps/i1/T1pnAUFclfXXbSLjnY-799-399.png" alt="创意中心二维码">
 </div>
 
-***尼玛～～～，Safrai 上木有二维码扫描工具咩！***
+***尼玛～～～，safari 上木有二维码扫描工具咩！***
 
-国产山柴就好到这儿，要啥有啥，打开 UC web，扫它，复制它，粘贴它到 Safrai，注意多图杀猫。
+国产山柴就好到这儿，要啥有啥，打开 UC web，扫它，复制它，粘贴它到 safari，注意多图杀猫。
 
 <div class="dib-box" style="margin-bottom:5px;">
     <div style="width:48%;display:inline-block;margin-right:1%;" class="dib">
@@ -51,17 +51,17 @@ iphone 上 Safrai 上打开 http://thx.github.io/，最好是连上 wifi，开�
     </div>
 </div>
 
-这里务必按照下图指示，到 iphone 的设置里面找到 高级，然后开启 web 检查器，允许 Mac 嗅探你的 iphone page load（上图 4）:
+这里务必按照下图指示，到 iPhone 的设置里面找到 高级，然后开启 web 检查器，允许 Mac 嗅探你的 iPhone page load（上图 4）:
 
-然后拿到 iphone 数据线，USB 连接到 Mac，在 Mac 上打开 Safrai，选择开发 -> “某某” 的iphone -> thx.github.io：
+然后拿到 iPhone 数据线，USB 连接到 Mac，在 Mac 上打开 safari，选择开发 -> “某某” 的iPhone -> thx.github.io：
 
 <div>
-    <img style="width: 100%;" src="http://gtms01.alicdn.com/tps/i1/T1Eyo8FhVXXXX4Tunv-707-504.png" alt="Safrai 上开启调试">
+    <img style="width: 100%;" src="http://gtms01.alicdn.com/tps/i1/T1Eyo8FhVXXXX4Tunv-707-504.png" alt="safari 上开启调试">
 </div>
 
-于是 Safrai 的调戏器被你弄出来了，你刚好不小心鼠标移到了中间 Dom 树结构上，你会发现你 iphone 上被同步映射上了该区域的浮层阴影：
+于是 safari 的调戏器被你弄出来了，你刚好不小心鼠标移到了中间 Dom 树结构上，你会发现你 iPhone 上被同步映射上了该区域的浮层阴影：
 
-![Safrai 调试器](http://gtms01.alicdn.com/tps/i1/T1QR7YFb0eXXaPgscw-1105-941.png)
+![safari 调试器](http://gtms01.alicdn.com/tps/i1/T1QR7YFb0eXXaPgscw-1105-941.png)
 
 <div class="dib-box" style="margin-bottom:5px;">
     <div style="width:48%;display:inline-block;margin-right:1%;" class="dib">
@@ -72,7 +72,7 @@ iphone 上 Safrai 上打开 http://thx.github.io/，最好是连上 wifi，开�
     </div>
 </div>
 
-剩下的事情，就跟在 PC 上差不多，你在这个调试器里面，加断点，然后 iphone 上刷新页面，或者触发交互，就可以调试 js，样式同理，不再赘述。
+剩下的事情，就跟在 PC 上差不多，你在这个调试器里面，加断点，然后 iPhone 上刷新页面，或者触发交互，就可以调试 js，样式同理，不再赘述。
 
 ##### 二、利用 auto_response 代理线上文件到本地调试
 
@@ -124,9 +124,9 @@ goto "/Users/huanglong/Projects/git/thx.github.io/assets/gateway.css"
 
 这样，当在 pc 浏览器中打开 http://thx.github.io 时候，实际请求的样式和脚本，都是我本机下的。
 
-然后配置 iphone ,找到 设置 -> 通用 -> vpn，打开 vpn， 将代理调为 手动模式，填入本机 ip, 端口号填 9000，保存后。用任何一个浏览器打开 thx.github.io ，都是访问的我本机上的 post.js 和 assets.js。
+然后配置 iPhone ,找到 设置 -> 通用 -> vpn，打开 vpn， 将代理调为 手动模式，填入本机 ip, 端口号填 9000，保存后。用任何一个浏览器打开 thx.github.io ，都是访问的我本机上的 post.js 和 assets.js。
 
-这里如果在 iphone 上打开 safrai，按照上面策略 1 的方式打开本机的 safrai，就可以在本机上，调试和修改本机的被代理文件，同时在手机上看效果。Mac 下 Safrai 的代理配置方式为：
+这里如果在 iPhone 上打开 safrai，按照上面策略 1 的方式打开本机的 safrai，就可以在本机上，调试和修改本机的被代理文件，同时在手机上看效果。Mac 下 safari 的代理配置方式为：
 
 全局设置下就可以调试了。
 
@@ -149,7 +149,7 @@ goto "/Users/huanglong/Projects/git/thx.github.io/assets/gateway.css"
 ![](http://gtms01.alicdn.com/tps/i1/T1z2g3FmpcXXcBo4YY-1161-853.png)
 ![](http://gtms01.alicdn.com/tps/i1/T1Upw2FiBcXXX1Lksy-747-550.png)
 
-ok, 到这里，显然 charles 可以和 iphone 结合来用，调试，原理同上 二。将手机 vpn 代理到本地 ip，端口填 8888，不仅可以抓手机上的包，同样可以调试 js/css ，在手机上直接看样式。
+ok, 到这里，显然 charles 可以和 iPhone 结合来用，调试，原理同上 二。将手机 vpn 代理到本地 ip，端口填 8888，不仅可以抓手机上的包，同样可以调试 js/css ，在手机上直接看样式。
 
 
 #### 四、用 weinre 调试 本机/测试机/远程服务器 页面
