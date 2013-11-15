@@ -68,20 +68,47 @@ body {
   color: #fff;
   background: #2C3E50;
 }
-#aside .category-mobile:before {
+
+/*
+ * icons
+ */
+.mi-projects:before {
+  content: '\f082';
+}
+.mi-mobile:before {
   content: '\f086';
 }
-#aside .product-brix:before {
+.mi-brix:before {
   content: '\007c';
 }
-#aside .product-rap:before {
+.mi-rap:before {
   content: '\016e';
 }
-#aside .product-magix:before {
+.mi-magix:before {
   content: '\0052';
 }
-#aside .product-mock:before {
+.mi-mock:before {
   content: '\0034';
+}
+
+/*
+ * Ceiling
+ */
+#ceiling {
+  padding: 5px 20px;
+}
+#ceiling .products {
+  float: left;
+}
+#ceiling .products a {
+  display: inline-block;
+  margin-right: 10px;
+}
+#ceiling .products a:hover {
+  border-bottom: none;
+}
+#ceiling .portal {
+  float: right;
 }
 
 /*
@@ -94,12 +121,18 @@ body {
     overflow-x: hidden;
   }
 
+  #ceiling {
+    display: none;
+  }
+
   #page {
     position: relative;
     left: 0;
     top: 0;
     height: 100%;
-    transition: left 0.2s;
+    -webkit-transition: left 0.2s;
+       -moz-transition: left 0.2s;
+            transition: left 0.2s;
   }
 
   #content {
@@ -147,10 +180,27 @@ body {
     text-align: center;
   }
 
+  #ceiling {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 28px;
+    padding: 0;
+    background: rgba(255, 255, 255, 0.7);
+  }
+  #ceiling .bd {
+    text-align: left;
+    width: 820px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -490px;
+  }
   #page {
     text-align: left;
     width: 700px;
-    margin: 0 auto;
+    margin: 30px auto 0;
   }
 
   #aside {
