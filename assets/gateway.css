@@ -188,14 +188,12 @@ body {
     height: 28px;
     padding: 0;
     background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   }
   #ceiling .bd {
     text-align: left;
-    width: 820px;
-    position: absolute;
-    left: 50%;
-    top: 0;
-    margin-left: -490px;
+    width: 680px;
+    margin: 0 auto;
   }
   #page {
     text-align: left;
