@@ -138,14 +138,19 @@ ar start -t
 
 然后，浏览器打开 http://127.0.0.1:9090，刷新下手机上的 thx.github.io 你将看到如下界面：
 
-http://gtms01.alicdn.com/tps/i1/T1l8Q5Fg4cXXXYyYck-1067-861.png
+![9090控制台](http://gtms01.alicdn.com/tps/i1/T1l8Q5Fg4cXXXYyYck-1067-861.png)
 
 切换到控制台，你将陆续看到这些打印信息：
 
-http://gtms01.alicdn.com/tps/i1/T1wA.5FbpcXXbjoWQk-1070-825.png
-http://gtms01.alicdn.com/tps/i1/T1ZDE8FflbXXbjoWQk-1070-825.png
+![控制台](http://gtms01.alicdn.com/tps/i1/T1ZDE8FflbXXbjoWQk-1070-825.png)
+![控制台](http://gtms01.alicdn.com/tps/i1/T1wA.5FbpcXXbjoWQk-1070-825.png)
 
-显然，命令行里所有的请求更一目了然。结合下 Mac 下的 safari，无敌调试模式就这样暴走了，虐杀一切 bugs。
+显然，命令行里所有的请求更一目了然，如上图，能看到我加的一句：
+
+```js
+alert(3);
+```
+。结合下 Mac 下的 safari，无敌调试模式就这样暴走了，虐杀一切 bugs。
 
 不得不提一下， auto_reponse 不仅能代理 css/js，包括整个的 html，甚至 xhr 都完全木有问题，还有最大的一个亮点是可以针对手机设置 ***网络延迟***，在配置文件里，两行代码搞定：
 
