@@ -122,9 +122,9 @@ goto "/Users/huanglong/Projects/git/thx.github.io/assets/gateway.css"
 
 ```
 
-这样，当在 pc 浏览器中打开 http://thx.github.io 时候，实际请求的样式和脚本，都是我本机下的。
+这样，当在 PC 浏览器中打开 http://thx.github.io 时候，实际请求的样式和脚本，都是我本机下的。
 
-然后配置 iPhone ,找到 设置 -> 通用 -> vpn，打开 vpn， 将代理调为 手动模式，填入本机 ip, 端口号填 9000，保存后。用任何一个浏览器打开 thx.github.io ，都是访问的我本机上的 post.js 和 assets.js。
+然后配置 iPhone ,找到 设置 -> 通用 -> VPN，打开 VPN， 将代理调为 手动模式，填入本机 ip, 端口号填 9000，保存后。用任何一个浏览器打开 thx.github.io ，都是访问的我本机上的 post.js 和 assets.js。
 
 这里如果在 iPhone 上打开 safrai，按照上面策略 1 的方式打开本机的 safrai，就可以在本机上，调试和修改本机的被代理文件，同时在手机上看效果。Mac 下 safari 的代理配置方式为：
 
@@ -149,7 +149,7 @@ goto "/Users/huanglong/Projects/git/thx.github.io/assets/gateway.css"
 ![](http://gtms01.alicdn.com/tps/i1/T1z2g3FmpcXXcBo4YY-1161-853.png)
 ![](http://gtms01.alicdn.com/tps/i1/T1Upw2FiBcXXX1Lksy-747-550.png)
 
-ok, 到这里，显然 charles 可以和 iPhone 结合来用，调试，原理同上 二。将手机 vpn 代理到本地 ip，端口填 8888，不仅可以抓手机上的包，同样可以调试 js/css ，在手机上直接看样式。
+ok, 到这里，显然 charles 可以和 iPhone 结合来用，调试，原理同上 二。将手机 VPN 代理到本地 ip，端口填 8888，不仅可以抓手机上的包，同样可以调试 js/css ，在手机上直接看样式。
 
 
 #### 四、用 weinre 调试 本机/测试机/远程服务器 页面
@@ -299,7 +299,7 @@ cd /Users/huanglong/Projects/git/thx.github.io
 nproxy -l replace.js
 ```
 
-同时，利用 SwitchySharp 创建个 nproxy 的情景模式，在 chrome 下代理被调试页面，调试手机，依然是需要配置本机网络代理，然后，手机上 vpn 代理到本机 IP。
+同时，利用 SwitchySharp 创建个 NProxy 的情景模式，在 chrome 下代理被调试页面，调试手机，依然是需要配置本机网络代理，然后，手机上 VPN 代理到本机 IP。
 
 Nproxy 不仅能映射线上文件到本地，同样能映射本地服务中的文件到线上，正则适配，图片目录，combo 解耦等，各位自行按需配置就行。
 
@@ -332,7 +332,7 @@ tinyproxy -c tinyproxy.conf
 
 #### 小结
 
-总体下来，无线上调试并没有太复杂，跟我们 pc 上调试页面差不多，只是配置过程会稍微繁复一些。毕竟工具只是一种手段，实现原理都大同小异，易用性则看个人平台下的环境配置与编程习惯。
+总体下来，无线上调试并没有太复杂，跟我们 PC 上调试页面差不多，只是配置过程会稍微繁复一些。毕竟工具只是一种手段，实现原理都大同小异，易用性则看个人平台下的环境配置与编程习惯。
 
 我们的主要作战场景是在 web h5 和 Hybrid，尤其 Hybrid 会是以后的主战场，Hybrid 作为混合模式移动应用，具“Native App 良好用户交互体验的优势” 和 “Web App 跨平台开发的优势”，它又分为：多View混合型，单 View 混合型，Web 主体型，如此多样的开发环境，会要求我们具备不同场景下的快速调试能力，更便携的调试手段，还期待与各位一起挖掘和研究，谨以此文，做抛砖引玉用。
 
