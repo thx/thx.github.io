@@ -144,10 +144,10 @@ goto "/Users/huanglong/Projects/git/thx.github.io/assets/gateway.css"
 
 ![mac 本机配置代理](http://gtms01.alicdn.com/tps/i1/T1q236Fd0bXXaSIqTq-782-694.png)
 
-打开 charles，从浏览器打开要抓包的页面 thx.github.io，即可看到数据包：左边的 sequence 和 structure。最迅捷的方式，就是直接在 structure 中，找到要代理的 js 和 css,右键直接到本地：
+打开 charles，从浏览器打开要抓包的页面 thx.github.io，即可看到数据包：左边的 sequence 和 structure。最迅捷的方式，就是直接在 structure 中，找到要代理的 js 和 css, 右键配置 map 目录，将线上地址映射到本地（下图 1）：
 
-![](http://gtms01.alicdn.com/tps/i1/T1Upw2FiBcXXX1Lksy-747-550.png)
 ![](http://gtms01.alicdn.com/tps/i1/T1z2g3FmpcXXcBo4YY-1161-853.png)
+![](http://gtms01.alicdn.com/tps/i1/T1Upw2FiBcXXX1Lksy-747-550.png)
 
 ok, 到这里，显然 charles 可以和 iphone 结合来用，调试，原理同上 二。将手机 vpn 代理到本地 ip，端口填 8888，不仅可以抓手机上的包，同样可以调试 js/css ，在手机上直接看样式。
 
@@ -332,9 +332,9 @@ tinyproxy -c tinyproxy.conf
 
 #### 小结
 
-总体下来，无线上调试并没有太复杂，跟我们 pc 上调试页面差不错，只是配置过程会稍微繁复一些。毕竟工具只是一种手段，实现原理都大同小异，易用性则看个人平台下的环境配置与编程习惯。
+总体下来，无线上调试并没有太复杂，跟我们 pc 上调试页面差不多，只是配置过程会稍微繁复一些。毕竟工具只是一种手段，实现原理都大同小异，易用性则看个人平台下的环境配置与编程习惯。
 
-我们的主要作战场景是在 web h5 和 Hybrid，尤其 Hybrid 会是以后的主战场，Hybrid 作为混合模式移动应用，具“Native App良好用户交互体验的优势”和“Web App跨平台开发的优势”，它又分为：多View混合型，单View混合型，Web主体型，如此多样的开发环境，会要求我们具备不同场景下的快速调试能力，更便携的调试手段，还期待与各位一起挖掘和研究，谨以此文，做抛砖引玉用。
+我们的主要作战场景是在 web h5 和 Hybrid，尤其 Hybrid 会是以后的主战场，Hybrid 作为混合模式移动应用，具“Native App 良好用户交互体验的优势” 和 “Web App 跨平台开发的优势”，它又分为：多View混合型，单 View 混合型，Web 主体型，如此多样的开发环境，会要求我们具备不同场景下的快速调试能力，更便携的调试手段，还期待与各位一起挖掘和研究，谨以此文，做抛砖引玉用。
 
 PS: 其它的调试手段：后面慢慢补充。
 
