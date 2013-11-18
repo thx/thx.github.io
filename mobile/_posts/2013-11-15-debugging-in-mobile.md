@@ -6,7 +6,7 @@ authors:
     homepage: http://blog.iblack7.com
 ---
 
-### 三分靠 codeing，七分 debugging!
+### 三分靠 coding，七分 debugging!
 
 少年天才以外的我们，与其说是 coder,不如说是 debugger，都是一路调戏过来的，不好意思，是调试【本人口齿不清，发音不准，再发生类似事故请多多见谅】，因此当你 主动/被动 All in 了无线以后，你发现，知识的储备只是时间的积累和有意识的训练而已，可面对众多的 爱疯，案桌儿，山柴，内核不同，大小不一的设备。尼玛，没有个顺手的调试工具，简直是不能忍受的。
 
@@ -80,9 +80,9 @@ iPhone 上 safari 上打开 http://thx.github.io/，最好是连上 wifi，开�
 - 上手指数：*****
 - 调试效率：*****
 
-[auto_response](https://github.com/qhwa/auto_response?source=c) 是我从业一来见过的最佳代理利器，没有之一，当然，它是我们 mux 如彼老师的开源之物，绝对流弊，pc 无线统统拿下，来，试玩一把：
+[auto_response](https://github.com/qhwa/auto_response?source=c) 是我从业一来见过的最佳调试/代理利器，没有之一，当然，它是我们 mux 如彼老师的开源之物，绝对流弊，pc 无线统统拿下，来，试玩一把：
 
-auto_response 只支持 linux， windows 的同学可以安装个虚拟机，跑上 *nix 系统，同时要求你有 ruby 环境，最好是 ruby 1.9+。
+auto_response 只支持 *nix， windows 的同学可以安装个虚拟机，跑上 *nix 系统，同时要求你有 ruby 环境，最好是 ruby 1.9+。
 
 安装：
 
@@ -126,11 +126,38 @@ goto "/Users/huanglong/Projects/git/thx.github.io/assets/gateway.css"
 
 然后配置 iPhone ,找到 设置 -> 通用 -> VPN，打开 VPN， 将代理调为 手动模式，填入本机 ip, 端口号填 9000，保存后。用任何一个浏览器打开 thx.github.io ，都是访问的我本机上的 post.js 和 assets.js。
 
-这里如果在 iPhone 上打开 safrai，按照上面策略 1 的方式打开本机的 safrai，就可以在本机上，调试和修改本机的被代理文件，同时在手机上看效果。Mac 下 safari 的代理配置方式为：
+这里如果在 iPhone 上打开 safrai，按照上面策略 1 的方式打开本机的 safrai，就可以在本机上，调试和修改本机的被代理文件，同时在手机上看效果。
 
-全局设置下就可以调试了。
+现在进入 ***暴走*** 模式：
 
-另外， auto_reponse 不仅能代理 css/js，包括整个的 html，甚至 xhr 都完全木有问题。
+如果除了代理下 js，之外，想更抓到每一个从 auto_response 手中流走的包，可以启动命令行调试模式：
+
+```bash
+ar start -t
+```
+
+然后，浏览器打开 http://127.0.0.1:9090，刷新下手机上的 thx.github.io 你将看到如下界面：
+
+![9090控制台](http://gtms01.alicdn.com/tps/i1/T1l8Q5Fg4cXXXYyYck-1067-861.png)
+
+切换到控制台，你将陆续看到这些打印信息：
+
+![控制台](http://gtms01.alicdn.com/tps/i1/T1ZDE8FflbXXbjoWQk-1070-825.png)
+![控制台](http://gtms01.alicdn.com/tps/i1/T1wA.5FbpcXXbjoWQk-1070-825.png)
+
+显然，命令行里所有的请求更一目了然，如上图，能看到我加的一句：
+
+```js
+alert(3);
+```
+。结合下 Mac 下的 safari，无敌调试模式就这样暴走了，虐杀一切 bugs。
+
+不得不提一下， auto_reponse 不仅能代理 css/js，包括整个的 html，甚至 xhr 都完全木有问题，还有最大的一个亮点是可以针对手机设置 ***网络延迟***，在配置文件里，两行代码搞定：
+
+```bash
+url "http://thx.github.io"
+delay 5
+```
 
 #### 三、用 charles 抓包、代理线上文件到本地
 
