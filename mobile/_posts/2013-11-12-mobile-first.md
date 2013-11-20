@@ -268,10 +268,10 @@ article {
   </div>
   <div id="aside"><a href="/aside" data-remote></a></div>
   <script>
-  KISSY.ready(function(S) {
-    KISSY.use('node,ajax', function(S, Node, IO) {
+  KISSY.use('node,ajax', function(S, Node, IO) {
+    KISSY.ready(function(S) {
       // 判断是否屏幕比较大
-      if (matchMedia('min-width: 1024px')) {
+      if (matchMedia('min-width: 1024px').matches) {
         // 确实挺大，那我们把可以加载进来的区块搞进来吧
         S.all('[data-remote]').each(function(a, i) {
           IO.get(a.attr('href') + '?xhr', function(markup) {
@@ -279,7 +279,7 @@ article {
           })
         })
         // 延迟加载为大屏幕提供的样式
-        S.importStyle('assets/screen.css')
+        S.use('assets/screen.css')
       }
     })
   })
