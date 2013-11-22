@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: MUX Library
 homepage: http://read.alibaba-inc.com/
 gitlab: lingzheng.yh/mux-library

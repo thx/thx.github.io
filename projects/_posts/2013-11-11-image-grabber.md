@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: Image Grabber
 homepage: https://github.com/thx/image_grabber
 github: thx/image_grabber
