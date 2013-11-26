@@ -2,9 +2,7 @@
  * Projects module
  */
 .projects .project {
-  /* Cube 中的 .dib 样式没生效，好奇怪 */
-  display: inline-block;
-  width: 280px;
+  width: 260px;
   padding: 10px;
   font-size: 14px;
 }
