@@ -4,3 +4,9 @@ pygments: true
 lsi: false
 permalink: /:categories/:title
 excerpt_separator: "\n\n"
+exclude:
+  - Gruntfile.js
+  - brix-core.sublime-project
+  - package.json
+  - readme.md
+  - node_modules

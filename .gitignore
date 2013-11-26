@@ -1,6 +1,6 @@
 _site
 _deploy
-
 .DS_Store
 
+node_modules
 *.sublime-workspace
