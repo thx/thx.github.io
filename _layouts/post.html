@@ -19,7 +19,7 @@ script: assets/post.js
         {{ content }}
       </article>
       <!-- Duoshuo Comment BEGIN -->
-      <div class="ds-thread"></div>
+      <div class="ds-thread" data-thread-key="{{ site.baseurl }}/{{ page.url }}"></div>
       <!-- Duoshuo Comment END -->
       {% include footer.html %}
     </div>
