@@ -16,5 +16,4 @@ Mac 用户，如果使用的是自带的 Ruby，可能需要在命令前加上 s
 除了默认的 http://thx.github.io 之外，还可以通过 http://thx.alibaba-inc.com 访问 
 THX 。后者是 THX 的镜像，放在独立的服务器上。
 
-testing service hook once more
 
