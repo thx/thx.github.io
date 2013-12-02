@@ -10,3 +10,5 @@ exclude:
   - package.json
   - readme.md
   - node_modules
+
+title: THX
