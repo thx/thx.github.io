@@ -197,6 +197,6 @@ window.addEventListener( "load", function() {
 
 由于这些解决方案较为零碎，社区里也有一些基于 JavaScript 的解决方案，包括一些指针事件的 polyfill，诸如 FastClick 之类专门为这个问题而生的脚本，以及类似 Kendo UI Mobile 等自主方案。
 
-虽然 JavaScript 的方案很好地解决了延迟问题，但毕竟是也算是临时的措施。浏览器本身所提供的方案，例如 Chrome 的 `width=device-width` 优化以及 Internet Explorer 的指针事件等，更属长久之计。
+虽然 JavaScript 的方案很好地解决了延迟问题，但毕竟只是临时的措施。浏览器本身所提供的方案，例如 Chrome 的 `width=device-width` 优化以及 Internet Explorer 的指针事件等，更属长久之计。
 
 未来发展如何，让我们拭目以待。
