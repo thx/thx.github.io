@@ -1,1 +1,0 @@
-blog published by node-webkit
