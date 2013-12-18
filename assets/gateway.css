@@ -2,7 +2,7 @@
  * Projects module
  */
 .projects .project {
-  width: 260px;
+  width: 310px;
   padding: 10px;
   font-size: 14px;
 }
@@ -14,4 +14,20 @@
 }
 .project .links {
   float: right;
+}
+
+.supporting-biz {
+  width: ;
+}
+
+.supporting-biz .biz {
+  width: 330px;
+}
+
+.supporting-biz h3 {
+  padding-left: 10px;
+}
+
+.supporting-biz a:hover {
+  border-bottom: none;
 }

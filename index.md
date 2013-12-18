@@ -23,3 +23,20 @@ THX 是 Thanks 的缩写，感谢所有促成 THX 的力量。
 ## Projects
 
 {% include projects.html category='projects' %}
+
+## THX 应用范例
+
+<div class="supporting-biz justify dib-box">
+  <div class="biz dib">
+    <h3>淘宝直通车系统原型</h3>
+    <a href="http://thx.alibaba-inc.com/bp_demo"><img src="/assets/img/biz/bp.png"></a>
+  </div>
+  <div class="biz dib">
+    <h3>Tanx DMP 数据营销系统原型</h3>
+    <a href="http://thx.alibaba-inc.com/dmp_demo"><img src="/assets/img/biz/dmp.png"></a>
+  </div>
+  <div class="biz dib">
+    <h3>Adhoc 大数据查询系统原型</h3>
+    <a href="http://thx.alibaba-inc.com/adhoc_demo"><img src="/assets/img/biz/adhoc.png"></a>
+  </div>
+</div>
