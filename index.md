@@ -39,4 +39,8 @@ THX 是 Thanks 的缩写，感谢所有促成 THX 的力量。
     <h3>Adhoc 大数据查询系统原型</h3>
     <a href="http://thx.alibaba-inc.com/adhoc_demo"><img src="/assets/img/biz/adhoc.png"></a>
   </div>
+  <div class="biz dib">
+    <h3>钻石展位系统原型</h3>
+    <a href="http://thx.alibaba-inc.com/zunashi_demo"><img src="/assets/img/biz/zuanshi.png"></a>
+  </div>
 </div>
