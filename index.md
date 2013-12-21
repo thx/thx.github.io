@@ -41,6 +41,6 @@ THX 是 Thanks 的缩写，感谢所有促成 THX 的力量。
   </div>
   <div class="biz dib">
     <h3>钻石展位系统原型</h3>
-    <a href="http://thx.alibaba-inc.com/zunashi_demo"><img src="/assets/img/biz/zuanshi.png"></a>
+    <a href="http://thx.alibaba-inc.com/zuanshi_demo"><img src="/assets/img/biz/zuanshi.png"></a>
   </div>
 </div>
