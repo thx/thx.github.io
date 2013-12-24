@@ -1,5 +1,4 @@
 baseurl:
-markdown: redcarpet
 pygments: true
 lsi: false
 permalink: /:categories/:title
@@ -11,4 +10,9 @@ exclude:
   - readme.md
   - node_modules
 
+markdown: redcarpet
+redcarpet:
+  extensions: [with_toc_data]
+
 title: THX
+encoding: utf-8
