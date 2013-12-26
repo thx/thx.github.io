@@ -233,10 +233,20 @@ a {
     position: relative;
     left: 0;
     top: 0;
+/*    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);*/
+
+    -webkit-transition: left .2s;
+    -moz-transition: left .2s;
+    -ms-transition: left .2s;
+    -o-transition: left .2s;
+    transition: left .2s;
     height: 100%;
-    -webkit-transition: left 0.2s;
-       -moz-transition: left 0.2s;
-            transition: left 0.2s;
+            list-style: disc outside;
+            padding-left: 40px;
   }
 
   #content {
@@ -275,13 +285,19 @@ a {
 
   #nav {
     position: absolute;
-    left: -200px;
+
+    /* 移动平台使用 transform 获得更流程的动画效果*/
+/*    -webkit-transform: translate3d(-200px,0,0);
+    -moz-transform: translate3d(-200px,0,0);
+    -ms-transform: translate3d(-200px,0,0);
+    -o-transform: translate3d(-200px,0,0);
+    transform: translate3d(-200px,0,0);*/
     top: 0;
+    left: -200px;
     height: 100%;
     width: 199px;
     background: #f4f4f4;
     border-right: 1px solid #d6d6d6;
-    -webkit-transform: translateZ(0);
   }
   #nav .toggler {
     display: inline-block;
@@ -320,10 +336,7 @@ a {
     display: inline;
     padding: 0;
   }
-  #page .stoc ol {
-    list-style: disc outside;
-    padding-left: 40px;
-  }
+  
   #page .stoc a:hover {
     background: none;
   }
@@ -425,23 +438,24 @@ a {
   #page .stoc a {
     height: auto;
     border-bottom: 1px solid #F3F3F3;
+    display: inline-block;
+    padding: 0 1em 0 0;
+    border-left: 3px solid rgba(0,0,0,0);
   }
   #page .fixed .stoc {
     top: 80px;
   }
 }
 
-.stoc li a{
-    display: inline-block !important;
-    padding: 3px 1em !important;
-}
-
-.stoc ol{
-    margin: 0;
-    padding-left: 14px !important;
-}
-
-.stoc .decimal li:before,
-.stoc .cjk li:before{
+#page .stoc .decimal li:before,
+#page .stoc .cjk li:before{
     color: #96B0D8;
 }
+
+#page .stoc li a:hover,
+#page .stoc .current {
+    background: none;
+    color:#333;
+    border-left-color: #00B7FF;
+}
+
