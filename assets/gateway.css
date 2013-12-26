@@ -9,6 +9,7 @@
 .projects .project {
   padding: 10px;
   font-size: 14px;
+  vertical-align: top;
 }
 
 .project a:hover {
