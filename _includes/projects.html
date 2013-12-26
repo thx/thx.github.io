@@ -1,10 +1,10 @@
-<div class="projects justify dib-box">
+<div class="projects justify">
   {% for category in site.categories %}{% if category[0] == include.category %}
   {% for project in category[1] %}
   <div class="project dib">
-    <div class="clearfix">
-      <h3>
-        <a href="{{ project.homepage || project.url }}" class="title">{{ project.title }}</a>
+    <div class="header clearfix">
+      <h3 class="title">
+        <a href="{{ project.homepage || project.url }}">{{ project.title }}</a>
       </h3>
       <span class="links">
         <a href="{{ project.homepage || project.url }}"><i class="iconfont">&#336;</i></a>

@@ -1,27 +1,32 @@
 /*
  * Projects module
  */
+
+ .supporting-biz .biz,
+ .projects .project{
+  width: 46%;
+ }
 .projects .project {
-  width: 310px;
   padding: 10px;
   font-size: 14px;
+  vertical-align: top;
 }
+
 .project a:hover {
   border-bottom: none;
 }
+
 .project .title {
   float: left;
 }
+
 .project .links {
   float: right;
+  margin-top: 15px;
 }
 
 .supporting-biz {
-  width: ;
-}
 
-.supporting-biz .biz {
-  width: 330px;
 }
 
 .supporting-biz h3 {
