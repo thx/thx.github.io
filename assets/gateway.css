@@ -6,18 +6,21 @@
   padding: 10px;
   font-size: 14px;
 }
+
 .project a:hover {
   border-bottom: none;
 }
 .project .title {
   float: left;
 }
+
 .project .links {
   float: right;
+  margin-top: 15px;
 }
 
 .supporting-biz {
-  width: ;
+
 }
 
 .supporting-biz .biz {

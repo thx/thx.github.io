@@ -2,11 +2,11 @@
   {% for category in site.categories %}{% if category[0] == include.category %}
   {% for project in category[1] %}
   <div class="project dib">
-    <div class="clearfix">
-      <h3>
-        <a href="{{ project.homepage || project.url }}" class="title">{{ project.title }}</a>
+    <div class="justify">
+      <h3 class="title dib">
+        <a href="{{ project.homepage || project.url }}">{{ project.title }}</a>
       </h3>
-      <span class="links">
+      <span class="links dib">
         <a href="{{ project.homepage || project.url }}"><i class="iconfont">&#336;</i></a>
         {% if project.github %}
         <a href="https://github.com/{{ project.github }}"><i class="iconfont">&#61464;</i></a>
