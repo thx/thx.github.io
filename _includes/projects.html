@@ -1,8 +1,8 @@
 <div class="projects justify">
   {% for category in site.categories %}{% if category[0] == include.category %}
   {% for project in category[1] %}
-  <div class="project">
-    <div class="clearfix">
+  <div class="project dib">
+    <div class="header clearfix">
       <h3 class="title">
         <a href="{{ project.homepage || project.url }}">{{ project.title }}</a>
       </h3>
