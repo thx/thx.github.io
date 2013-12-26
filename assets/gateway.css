@@ -1,8 +1,12 @@
 /*
  * Projects module
  */
-.projects .project {
+
+ .supporting-biz .biz,
+ .projects .project{
   width: 46%;
+ }
+.projects .project {
   padding: 10px;
   font-size: 14px;
 }
@@ -22,10 +26,6 @@
 
 .supporting-biz {
 
-}
-
-.supporting-biz .biz {
-  width: 330px;
 }
 
 .supporting-biz h3 {
