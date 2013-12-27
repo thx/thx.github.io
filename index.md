@@ -34,6 +34,12 @@ THX 是 Thanks 的缩写，感谢所有促成 THX 的力量。
     <a href="http://thx.tbsite.net/bp_demo"><img src="/assets/img/biz/bp.png"></a>
   </div>
   <div class="biz dib">
+    <h3>淘宝直通车系统（移动版）原型</h3>
+    <a href="http://thx.tbsite.net/mbp_demo/">
+      <img class="shadow" width="150" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQUAAAEFAQMAAADQWGDSAAAABlBMVEUAAAD///+l2Z/dAAABrUlEQVRoge2Zu7GEMAxFtbMBISVQCqVBaZTiEggdMOhZP2O88Cq4N8GDDolGsj4QmT5clOywlsdwUCcQoUVsx4dp2aZ62IdDv+EdxC+xiQfFwGlkP9gbognEO8HrnDT4ysG9DOJ/QpSvvAXxSnjeMnvelgON/JDZIIwwNRecH6gTCBdXrURjljdrCb4h3mYQPWGGmreqyc2bmEDcCcnbnb6nlgR1pd59rrjpQFyEFFELPq5o8Wkm70gyiI4wD345+g81GGoHEI+Eth1zyduCEhVUv2ELRxA3QoNP05Vq3up44EUCRE94cvrkmTX4pCR8/RsQv0TpzyiCz33q0rgE0RPkF5yXBIlL9empphFETxTXJY85qiOoOVcnKxA9YVlKTQKrc+tODURPaMkc+LTgY9bgkwvO1xwEoid0GDi8BChqBpN1wSBaIqThaKvGuXYkiQhER7ianWOz6Y6UBtESi1hicXat0pi5zlEg7sQWRTSWsz4MiKJ6gHggrCTY0M7e9doWEsQLsXD8O5ltaBd1f/BAtHkb44H+0YzJ6nbTgUj32uC1wnq4o1nPgmiIPyUBfcQ2Vrm9AAAAAElFTkSuQmCC">
+    </a>
+  </div>
+  <div class="biz dib">
     <h3>Tanx DMP 数据营销系统原型</h3>
     <a href="http://thx.tbsite.net/dmp_demo"><img src="/assets/img/biz/dmp.png"></a>
   </div>
@@ -44,11 +50,5 @@ THX 是 Thanks 的缩写，感谢所有促成 THX 的力量。
   <div class="biz dib">
     <h3>钻石展位系统原型</h3>
     <a href="http://thx.tbsite.net/zuanshi_demo"><img src="/assets/img/biz/zuanshi.png"></a>
-  </div>
-  <div class="biz dib">
-    <h3>淘宝直通车系统（移动版）原型</h3>
-    <a href="http://thx.tbsite.net/mbp_demo/">
-      <img class="shadow" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQUAAAEFAQMAAADQWGDSAAAABlBMVEUAAAD///+l2Z/dAAABrUlEQVRoge2Zu7GEMAxFtbMBISVQCqVBaZTiEggdMOhZP2O88Cq4N8GDDolGsj4QmT5clOywlsdwUCcQoUVsx4dp2aZ62IdDv+EdxC+xiQfFwGlkP9gbognEO8HrnDT4ysG9DOJ/QpSvvAXxSnjeMnvelgON/JDZIIwwNRecH6gTCBdXrURjljdrCb4h3mYQPWGGmreqyc2bmEDcCcnbnb6nlgR1pd59rrjpQFyEFFELPq5o8Wkm70gyiI4wD345+g81GGoHEI+Eth1zyduCEhVUv2ELRxA3QoNP05Vq3up44EUCRE94cvrkmTX4pCR8/RsQv0TpzyiCz33q0rgE0RPkF5yXBIlL9empphFETxTXJY85qiOoOVcnKxA9YVlKTQKrc+tODURPaMkc+LTgY9bgkwvO1xwEoid0GDi8BChqBpN1wSBaIqThaKvGuXYkiQhER7ianWOz6Y6UBtESi1hicXat0pi5zlEg7sQWRTSWsz4MiKJ6gHggrCTY0M7e9doWEsQLsXD8O5ltaBd1f/BAtHkb44H+0YzJ6nbTgUj32uC1wnq4o1nPgmiIPyUBfcQ2Vrm9AAAAAElFTkSuQmCC">
-    </a>
   </div>
 </div>
