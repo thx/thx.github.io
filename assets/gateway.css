@@ -4,25 +4,25 @@
 
  .supporting-biz .biz,
  .projects .project{
-  width: 46%;
+    width: 46%;
  }
 .projects .project {
-  padding: 10px;
-  font-size: 14px;
-  vertical-align: top;
+    padding: 10px;
+    font-size: 14px;
+    vertical-align: top;
 }
 
 .project a:hover {
-  border-bottom: none;
+    border-bottom: none;
 }
 
 .project .title {
-  float: left;
+    float: left;
 }
 
 .project .links {
-  float: right;
-  margin-top: 15px;
+    float: right;
+    margin-top: 15px;
 }
 
 .supporting-biz {
@@ -30,9 +30,15 @@
 }
 
 .supporting-biz h3 {
-  padding-left: 10px;
+    padding-left: 10px;
 }
 
 .supporting-biz a:hover {
-  border-bottom: none;
+    border-bottom: none;
+}
+
+.supporting-biz .biz .shadow {
+    margin: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    padding: 10px;
 }
