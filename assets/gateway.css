@@ -2,10 +2,6 @@
  * Projects module
  */
 
- .supporting-biz .biz,
- .projects .project{
-    width: 46%;
- }
 .projects .project {
     padding: 10px;
     font-size: 14px;
@@ -25,9 +21,10 @@
     margin-top: 15px;
 }
 
-.supporting-biz {
 
-}
+/*
+ * Applications module
+ */
 
 .supporting-biz h3 {
     padding-left: 10px;
@@ -41,4 +38,15 @@
     margin: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
     padding: 10px;
+}
+.supporting-biz .biz .qr-code {
+    width: 50%;
+}
+
+
+@media (min-width: 560px) {
+    .supporting-biz .biz,
+    .projects .project {
+        width: 46%;
+    }
 }
