@@ -468,7 +468,7 @@ a {
     #page .stoc label,
     #page .stoc a {
         display: inline;
-        padding: 0;
+        padding: 0 5px;
     }
 
     #page .stoc a:hover {
