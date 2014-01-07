@@ -20,13 +20,13 @@ THX 是 Thanks 的缩写，感谢所有促成 THX 的力量。
 
 {% include projects.html category='products' %}
 
-## Projects
-
-{% include projects.html category='projects' %}
-
 ## Services
 
 {% include projects.html category='services' %}
+
+## Projects
+
+{% include projects.html category='projects' %}
 
 ## THX 应用范例
 
