@@ -1,6 +1,6 @@
 <div class="projects justify">
   {% for category in site.categories %}{% if category[0] == include.category %}
-  {% for project in category[1] %}
+  {% for project in category[1] reversed %}
   <div class="project dib">
     <div class="header clearfix">
       <h3 class="title">
