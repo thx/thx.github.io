@@ -24,6 +24,10 @@ THX 是 Thanks 的缩写，感谢所有促成 THX 的力量。
 
 {% include projects.html category='projects' %}
 
+## Services
+
+{% include projects.html category='services' %}
+
 ## THX 应用范例
 
 仅限阿里内网访问：
