@@ -4,3 +4,5 @@ _deploy
 
 node_modules
 *.sublime-workspace
+
+*.log
