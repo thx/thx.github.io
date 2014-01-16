@@ -3,10 +3,48 @@
  */
 
 .projects .project {
-    padding: 10px;
     font-size: 14px;
     vertical-align: top;
+    overflow: hidden;
+    *zoom: 1;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+    margin-top: -1px;
 }
+
+.projects .project-table {
+    width: 100%;
+}
+
+.projects .project-table tr td {
+    background: none;
+    border: 0 none;
+}
+
+.projects .project-table .banner {
+    width: 120px;
+    text-align: center;
+    border-right: 1px dashed #ddd;
+    background: none;
+}
+.projects .banner a {
+    color: #bebebe;
+    display: block;
+    font-size: 60px;
+}
+
+.projects .banner:hover {
+    background-color: #ed4242;
+}
+
+.projects .banner:hover a {
+    color: #fff;
+}
+
+.projects .project-table .bd {
+    background: none;
+}
+
 
 .project a:hover {
     border-bottom: none;
@@ -45,8 +83,7 @@
 
 
 @media (min-width: 560px) {
-    .supporting-biz .biz,
-    .projects .project {
+    .supporting-biz .biz {
         width: 46%;
     }
 }

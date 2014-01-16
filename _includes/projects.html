@@ -1,26 +1,38 @@
-<div class="projects justify">
+<div class="projects">
   {% for category in site.categories %}{% if category[0] == include.category %}
   {% for project in category[1] reversed %}
-  <div class="project dib">
-    <div class="header clearfix">
-      <h3 class="title">
-        <a href="{{ project.homepage || project.url }}">{{ project.title }}</a>
-      </h3>
-      <span class="links">
-        <a href="{{ project.homepage || project.url }}"><i class="iconfont">&#336;</i></a>
-        {% if project.github %}
-        <a href="https://github.com/{{ project.github }}"><i class="iconfont">&#61464;</i></a>
-        {% endif %}
-      </span>
-    </div>
-    <div class="authors">
-      {% for author in project.authors %}
-      <a href="{{ author.homepage }}">{{ author.name }}</a>
-      {% endfor %}
-    </div>
-    <div class="summary">
-      {{ project.excerpt | markdownify }}
-    </div>
+  <div class="project">
+    <table class="project-table">
+        <tr>
+            <td class="banner">
+               <div>
+                   <a href="{{ project.homepage || project.url }}" class="iconfont">b</a>
+               </div> 
+            </td>
+            <td class="bd">
+                  <div class="header clearfix">
+                    <h3 class="title">
+                      <a href="{{ project.homepage || project.url }}">{{ project.title }}</a>
+                    </h3>
+                    <span class="links">
+                      <a href="{{ project.homepage || project.url }}"><i class="iconfont">&#336;</i></a>
+                      {% if project.github %}
+                      <a href="https://github.com/{{ project.github }}"><i class="iconfont">&#61464;</i></a>
+                      {% endif %}
+                    </span>
+                  </div>
+                  <div class="authors">
+                    {% for author in project.authors %}
+                    <a href="{{ author.homepage }}">{{ author.name }}</a>
+                    {% endfor %}
+                  </div>
+                  <div class="summary">
+                    {{ project.excerpt | markdownify }}
+                  </div>
+            </td>
+        </tr>
+    </table>
+
   </div>
   {% endfor %}
   {% endif %}{% endfor %}
