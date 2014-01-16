@@ -160,19 +160,19 @@ a {
     color: #fff;
 }
 
-.skin-magix a.logo {
+.skin-magix #nav .logo {
     color: #da1e38;
 }
 
-.skin-cube a.logo {
+.skin-cube #nav .logo {
     color: #0e76bc;
 }
 
-.skin-brix-core a.logo {
+.skin-brix-core #nav .logo {
     color: #0e76bc;
 }
 
-.skin-crox a.logo {
+.skin-crox #nav .logo {
     color: #0e76bc;
 }
 
