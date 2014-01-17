@@ -8,4 +8,4 @@ authors:
     homepage: http://yehao.diandian.com
 ---
 
-MUX 部门图书馆，暂不对外。
+MUX Library是MUX部门图书和设备借阅站点，暂不对外。

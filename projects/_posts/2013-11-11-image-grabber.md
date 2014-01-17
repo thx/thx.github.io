@@ -8,4 +8,4 @@ authors:
     homepage: http://yehao.diandian.com
 ---
 
-Image Grabber 是个使用 canvas 标签实现的 PS 钢笔与魔棒工具。
+ImageGrabber是一个使用Canvas技术实现的PS钢笔与魔棒工具。
