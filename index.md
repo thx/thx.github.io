@@ -1,6 +1,6 @@
 ---
 layout: post
-title: THX @ 阿里妈妈用户体验中心
+title: THX @ Alimama MUX
 ---
 
 THX是一系列前端开发相关的工具，框架和类库的集合，也是阿里集团阿里妈妈、一淘网和无线产品线
