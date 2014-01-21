@@ -230,7 +230,7 @@ a {
     color: #aaa;
 }
 #ceiling .products {
-    float: left;
+    /*float: left;*/
 }
 #ceiling .products a {
     border-right: 1px solid #d6d6d6;
@@ -240,7 +240,7 @@ a {
     color: #313131;
 }
 #ceiling .portal {
-    float: right;
+    /*float: right;*/
 }
 
 .ds-thread {
@@ -338,12 +338,12 @@ a {
     }
     #ceiling .products {
         margin-left: 45px;
-        width: 72%;
-        height: 40px;
-        overflow: hidden;
+        /*width: 72%;*/
+        /*height: 40px;*/
+        /*overflow: hidden;*/
     }
     #ceiling .products a {
-        padding: 2px 5px;
+        padding: 2px 4px;
         border-right: none;
     }
     #ceiling .products .name {
@@ -392,9 +392,7 @@ a {
     #nav .toggler:hover {
         border-bottom: 1px solid #d6d6d6;
     }
-    #nav .toggler .label {
-        display: none;
-    }
+
     #nav a.logo {
         margin-bottom: 28px;
     }
@@ -432,7 +430,14 @@ a {
         height: 28px;
         line-height: 28px;
         padding: 10px 20px;
+        text-align: center;
+        color: #808080;
     }
+
+    #nav .toggler .iconfont {
+        font-size: 28px;
+    }
+
     #nav .toggler .label {
         display: inline-block;
     }
@@ -532,6 +537,10 @@ a {
 
     #page .type-toc h2 {
         padding: 0;
+    }
+
+     #nav .toggler .label {
+        display: none;
     }
 }
 
