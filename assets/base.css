@@ -518,12 +518,9 @@ a {
     #page .stoc {
         position: static;
         background: none;
+        border-bottom: 1px solid #CCC;
     }
 
-    #page .stoc label {
-        cursor: default;
-    }
-    #page .stoc label,
     #page .stoc a {
         padding: 0 5px;
     }
@@ -533,14 +530,8 @@ a {
         color: inherit;
     }
 
-    #page .stoc > ol {
-        padding: 1em 0;
-    }
-
-    #page .stoc > ol > li {
-        display: inline-block;
-        vertical-align: top;
-        margin-right: 2em;
+    #page .type-toc h2 {
+        padding: 0;
     }
 }
 
@@ -613,6 +604,15 @@ a {
 }
 
 
+input ~ ol >li >ol {
+    display: none;
+}
+
+input:checked ~ ol >li >ol {
+    display: block;
+}
+
+
 .type-toc li {
     overflow: hidden;
     margin-top: 1px;
@@ -643,9 +643,13 @@ a {
 
 .type-toc h2 {
     margin-bottom: 6px;
-    padding: 0 22px;
+    padding: 0 12px;
     font-size: 18px;
     color: #666;
+}
+
+.type-toc label .iconfont {
+    margin-right: 10px;
 }
 
 
