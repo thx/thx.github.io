@@ -328,7 +328,7 @@ a {
     }
 
     #content-wrap {
-        padding: 90px 20px 20px;
+        padding: 40px 20px 20px;
         position: relative;
         overflow: hidden;
     }
@@ -642,10 +642,11 @@ input:checked ~ ol >li >ol {
 
 
 .type-toc h2 {
-    margin-bottom: 6px;
     padding: 0 12px;
     font-size: 18px;
     color: #666;
+    border: 0 none;
+    margin: 0;
 }
 
 .type-toc label .iconfont {
