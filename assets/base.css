@@ -333,8 +333,8 @@ a {
     }
 
     #ceiling .bd {
-        height: 30px;
-        line-height: 30px;
+        height: 40px;
+        line-height: 40px;
     }
 
     #ceiling a {
@@ -386,8 +386,8 @@ a {
     }
     #nav .toggler {
         display: inline-block;
-        height: 30px;
-        line-height: 30px;
+        height: 40px;
+        line-height: 40px;
         position: absolute;
         padding:0 12px;
         top: 0;
