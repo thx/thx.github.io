@@ -295,9 +295,9 @@ a {
 @media (max-width: 799px) {
     html, body {
         height: 100%;
-        overflow-x: hidden;
+/*        overflow-x: hidden;
         overflow-y: auto;
-        -webkit-overflow-scrolling: touch;
+        -webkit-overflow-scrolling: touch;*/
     }
 
     #page {
@@ -925,9 +925,11 @@ h5:hover .anchor-link {
     line-height: 0;
     border: 0 none;
     text-align: right;
-    -webkit-transition: .3s;
-    -o-transition: .3s;
-    transition: .3s;
+    -webkit-transition: .32s ease;
+    -moz-transition: .32s ease;
+    -ms-transition: .32s ease;
+    -o-transition: .32s ease;
+    transition: .32s ease;
     overflow: hidden;
 }
 
