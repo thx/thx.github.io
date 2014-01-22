@@ -361,6 +361,10 @@ a {
         display: none;
     }
 
+    #page .projects .banner a {
+        font-size: 36px;
+    }
+
     #nav {
         position: absolute;
 
