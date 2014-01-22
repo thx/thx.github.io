@@ -3,6 +3,37 @@ layout: page
 script: assets/post.js
 ---
 
+    <input type="checkbox" class="clip-hide" name="set-mode" id="set-night">
+    <input type="radio" class="clip-hide" name="set-font" id="set-font-small">
+    <input type="radio" class="clip-hide" name="set-font" id="set-font-middle">
+    <input type="radio" class="clip-hide" name="set-font" id="set-font-large">
+
+<!-- 文字大小 begin -->
+    <label class="type-set-label set-first set-font-small" for="set-font-small" title="较小">
+        <span class="bd">
+            <span class="set-title">较小</span><span class="set-icon set-font-small">A</span>
+        </span>
+    </label>
+    <label class="type-set-label" for="set-font-middle" title="默认">
+        <span class="bd">
+            <span class="set-title">默认</span><span class="set-icon set-font-middle">A</span>
+        </span>
+    </label>
+    <label class="type-set-label" for="set-font-large" title="较大">
+        <span class="bd">
+            <span class="set-title">较大</span><span class="set-icon set-font-large">A</span>
+        </span>
+    </label> 
+<!-- 文字大小 end -->
+
+<!-- 昼夜模式 begin -->
+    <label class="type-set-label set-last set-night" for="set-night" title="夜晚模式">
+        <span class="bd">
+            <span class="set-title">夜晚模式</span><i class="set-icon iconfont">&#452;</i>
+        </span>
+    </label>
+<!-- 昼夜模式 end -->
+
 <div id="page">
   <div id="content">
     <div id="content-wrap">
@@ -28,7 +59,7 @@ script: assets/post.js
       <i class="iconfont">&#271;</i>
       <span class="label">导航</span>
     </a>
-    <h1 class="logo"><a href="/"><span class="ir">THX</span></a></h1>
+    <h1 class="logo"><a href="/"><b class="icon-logo">&#x343b;</b></a></h1>
     <ul class="categories menu">
     {% for category in site.categories %}
       <li>
