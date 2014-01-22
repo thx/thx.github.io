@@ -8,13 +8,14 @@ KISSY.use('node,event', function(S, Node) {
         }
     })
 
-    S.one('#J_set_box').on('click', function() {
+    S.one('#J_set_box').on('click', function(e) {
         S.one('body').toggleClass('set-box')
         e.stopPropagation()
     })
 
     S.one('body').on('click', function() {
         S.one('#page').removeClass('page-dodged')
+        S.one('body').removeClass('set-box')
     })
 
     S.one(window).on('scroll', function(e) {
