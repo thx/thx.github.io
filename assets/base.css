@@ -295,9 +295,9 @@ a {
 @media (max-width: 799px) {
     html, body {
         height: 100%;
-/*        overflow-x: hidden;
+        overflow-x: hidden;
         overflow-y: auto;
-        -webkit-overflow-scrolling: touch;*/
+        -webkit-overflow-scrolling: touch;
     }
 
     #page {
