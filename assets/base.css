@@ -56,6 +56,31 @@ a {
     font-weight: 500;
 }
 
+/**
+ * 引入Logo字体图标   
+ */
+@font-face {
+    font-family: 'logo';
+    src: url('http://at.alicdn.com/t/font_1390195988_9420388.eot'); /* IE9*/
+    src: url('http://at.alicdn.com/t/font_1390195988_9420388.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('http://at.alicdn.com/t/font_1390195989_0386753.woff') format('woff'), /* chrome、firefox */
+    url('http://at.alicdn.com/t/font_1390195988_7969282.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('http://at.alicdn.com/t/font_1390195989_0668917.svg#svgFontName') format('svg'); /* iOS 4.1- */
+}
+
+.iconlogo,
+.type .iconlogo {
+    font-family: "logo";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    display: inline-block;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 /*
  * icons
  */
@@ -66,19 +91,31 @@ a {
     content: '\f086';
 }
 .mi-brix:before {
-    content: '\f039';
+    content: '\3433';
 }
 .mi-rap:before {
-    content: '\016e';
+    content: '\3434';
 }
 .mi-magix:before {
-    content: '\f06f';
+    content: '\3432';
 }
 .mi-mock:before {
-    content: '\0034';
+    content: '\3435';
 }
 .mi-crox:before {
-    content: '\012a';
+    content: '\3436';
+}
+.mi-cube:before {
+    content: '\3439';
+}
+.mi-iconfont:before {
+    content: '\343a';
+}
+.mi-canvax:before {
+    content: '\3437';
+}
+.mi-bisheng:before {
+    content: '\3438';
 }
 .mi-releases:before {
     content: '\0030';
@@ -92,27 +129,17 @@ a {
 .mi-articles:before {
     content: '\0123';
 }
-.mi-iconfont:before {
-    content: '\003c';
-}
 .mi-products:before {
     content: '\0199';
 }
-.mi-cube:before {
-    content: '\01bc';
-}
+
 .mi-diamond:before {
     content: '\f005';
 }
 .mi-gaming:before {
     content: '\007a';
 }
-.mi-canvax:before {
-    content: '\00fb';
-}
-.mi-bisheng:before {
-    content: '\012f';
-}
+
 .mi-services:before {
     content: '\013e';
 }
@@ -141,7 +168,7 @@ a {
     line-height: 30px;
 }
 
-#nav .icon-logo {
+#nav .iconlogo {
     font-size: 80px;
     color: #fff;
     display: block;
@@ -152,7 +179,7 @@ a {
  * 皮肤
  */
 
-.skin-index #nav.fixed .icon-logo {
+.skin-index #nav.fixed .iconlogo {
     font-size: 50px;
 }
 
@@ -293,7 +320,7 @@ a {
 }
 
 @media (max-width: 799px) {
-    html, body {
+    html {
         height: 100%;
         overflow-x: hidden;
         overflow-y: auto;
@@ -320,10 +347,8 @@ a {
         /* padding-left: 40px; */
     }
 
-    #content {
-        /*height: 100%;*/
-        /*overflow: auto;*/
-        -webkit-overflow-scrolling: touch; /* 防止iOS 没有平滑滚动 */
+    .set-box #page #content {
+        margin-top: -145px;
     }
 
     #content-wrap {
@@ -385,7 +410,6 @@ a {
         border-right: 1px solid #d6d6d6;
     }
     #nav .toggler {
-        display: inline-block;
         height: 40px;
         line-height: 40px;
         position: absolute;
@@ -409,7 +433,7 @@ a {
         padding-bottom: 5px;
     }
 
-    #nav .icon-logo {
+    #nav .iconlogo {
         width: 100%;
     }
 
@@ -419,7 +443,7 @@ a {
     }
 
     body.set-box .set-first {
-        margin-top: auto;
+        /*margin-top: auto;*/
     }
 }
 
@@ -878,33 +902,6 @@ h5:hover .anchor-link {
     overflow: hidden;
 }
 
-
-/**
- * 引入字体图标   
- */
-@font-face {
-    font-family: 'logo';
-    src: url('http://at.alicdn.com/t/font_1390195988_9420388.eot'); /* IE9*/
-    src: url('http://at.alicdn.com/t/font_1390195988_9420388.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('http://at.alicdn.com/t/font_1390195989_0386753.woff') format('woff'), /* chrome、firefox */
-    url('http://at.alicdn.com/t/font_1390195988_7969282.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-    url('http://at.alicdn.com/t/font_1390195989_0668917.svg#svgFontName') format('svg'); /* iOS 4.1- */
-}
-
-.icon-logo,
-.type .icon-logo {
-    font-family: "logo";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    display: inline-block;
-    speak: none;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-
 /**
  * 移动端优化模式
  */
@@ -931,6 +928,7 @@ h5:hover .anchor-link {
     -o-transition: .32s ease;
     transition: .32s ease;
     overflow: hidden;
+    pointer-events: none;
 }
 
 .set-box .type-set-label {
@@ -938,14 +936,31 @@ h5:hover .anchor-link {
     line-height: 36px;
 }
 
-.set-box .set-first {
+.set-first {
     margin-top: 46px;
+}
+
+#content {
+    margin-top: -46px;
+}
+
+.set-box #page #content {
+    margin-top: -190px;
 }
 
 .type-set-label .bd {
     display: inline-block;
     width: 130px;
     background-color: #eee;
+    pointer-events: auto;
+}
+
+.type-set-label .bd:hover {
+    background-color: #ddd;
+}
+
+#set-night:checked ~ .type-set-label .bd:hover {
+    background-color: #333;
 }
 
 .set-icon {
