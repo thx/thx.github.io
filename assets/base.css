@@ -903,7 +903,7 @@ h5:hover .anchor-link {
 }
 
 /**
- * 移动端优化模式
+ * 移动端阅读优化
  */
 
 @media (max-width: 800px) {
@@ -992,15 +992,19 @@ h5:hover .anchor-link {
     font-size: 14px;
 }
 
-#set-font-middle:checked ~ #page .type {
-    font-size: 16px;
+#set-font-small:checked ~ #page .type p {
+    line-height: 1.7;
 }
 
 #set-font-large:checked ~ #page .type {
     font-size: 18px;
 }
 
-/* 阅读模式 */
+#set-font-large:checked ~ #page .type p {
+    line-height: 2;
+}
+
+/* 夜晚模式配色 */
 #set-night:checked ~ #page #content {
     background-color: #2f2f2f;
     color: #CACCD1;
