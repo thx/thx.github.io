@@ -305,25 +305,6 @@ a {
      background-color: #fff;
 }
 
-#page .stoc {
-    background: none;
-    -webkit-transition: opacity 5s ease-in-out;
-    -moz-transition: opacity 5s ease-in-out;
-    -ms-transition: opacity 5s ease-in-out;
-    -o-transition: opacity 5s ease-in-out;
-    transition: opacity 5s ease-in-out;
-    opacity: .3
-}
-
-#page .stoc:hover {
-    -webkit-transition: opacity .3s ease-out;
-    -moz-transition: opacity .3s ease-out;
-    -ms-transition: opacity .3s ease-out;
-    -o-transition: opacity .3s ease-out;
-    transition: opacity .3s ease-out;
-    opacity: .999999;
-}
-
 #page .stoc ol {
     padding-left: 14px;
     padding-right: 1px;
@@ -360,10 +341,6 @@ a {
         height: 100%;
         list-style: disc outside;
         /* padding-left: 40px; */
-    }
-
-    .set-box #page #content {
-        margin-top: -145px;
     }
 
     #content-wrap {
@@ -455,10 +432,6 @@ a {
     /* 移出侧边导航栏的动画 */
     .page-dodged {
         left: 200px !important;
-    }
-
-    body.set-box .set-first {
-        /*margin-top: auto;*/
     }
 }
 
@@ -599,7 +572,12 @@ a {
         padding: 0;
     }
 
-     #nav .toggler .label {
+    #nav .toggler .label {
+        display: none;
+    }
+
+    /* 2014-01-25 小屏幕上也要目录折叠功能 */
+    #page .stoc .folded ol {
         display: none;
     }
 }
@@ -614,6 +592,25 @@ a {
     }
 
     #page .stoc {
+        background: none;
+        -webkit-transition: opacity 5s ease-in-out;
+        -moz-transition: opacity 5s ease-in-out;
+        -ms-transition: opacity 5s ease-in-out;
+        -o-transition: opacity 5s ease-in-out;
+        transition: opacity 5s ease-in-out;
+        opacity: .3
+    }
+
+    #page .stoc:hover {
+        -webkit-transition: opacity .3s ease-out;
+        -moz-transition: opacity .3s ease-out;
+        -ms-transition: opacity .3s ease-out;
+        -o-transition: opacity .3s ease-out;
+        transition: opacity .3s ease-out;
+        opacity: .999999;
+    }
+
+    #page .stoc {
         top: 113px;
         bottom: 20px;
         left: 50%;
@@ -624,6 +621,7 @@ a {
         margin-left: 360px;
         /*padding:0 16px 16px 0;*/
     }
+
     #page .stoc a {
         height: auto;
         border-bottom: 1px solid transparent;
@@ -932,34 +930,30 @@ h5:hover .anchor-link {
     vertical-align: middle;
     position: relative;
     z-index: 9999;
-    height: 0;
-    line-height: 0;
+    height: 36px;
+    line-height: 36px;
     border: 0 none;
     text-align: right;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.settings {
+    position: absolute;
+    right: 0;
+    top: 46px;
+    z-index: 1000;
+    height: 0;
+    overflow: hidden;
     -webkit-transition: .32s ease;
     -moz-transition: .32s ease;
     -ms-transition: .32s ease;
     -o-transition: .32s ease;
     transition: .32s ease;
-    overflow: hidden;
-    pointer-events: none;
 }
 
-.set-box .type-set-label {
-    height: 36px;
-    line-height: 36px;
-}
-
-.set-first {
-    margin-top: 46px;
-}
-
-#content {
-    margin-top: -46px;
-}
-
-.set-box #page #content {
-    margin-top: -190px;
+.settings-visible {
+    height: 144px;
 }
 
 .type-set-label .bd {
@@ -973,7 +967,7 @@ h5:hover .anchor-link {
     background-color: #ddd;
 }
 
-#set-night:checked ~ .type-set-label .bd:hover {
+.body-night .type-set-label .bd:hover {
     background-color: #333;
 }
 
@@ -1002,66 +996,69 @@ h5:hover .anchor-link {
     font-size: 26px;
 }
 
-#set-font-small:checked ~ #page .type {
+.body-font-small #page .type {
     font-size: 14px;
     line-height: 1.7;
 }
 
-#set-font-small:checked ~ #page .type p {
+.body-font-small #page .type p {
     line-height: 1.7;
 }
 
-#set-font-large:checked ~ #page .type {
+.body-font-large #page .type {
     font-size: 18px;
     line-height: 2;
 }
 
-#set-font-large:checked ~ #page .type p {
+.body-font-large #page .type p {
     line-height: 2;
 }
 
 /* 夜晚模式配色 */
-#set-night:checked ~ #page #content {
+.body-night {
+    background: #2f2f2f;
+}
+.body-night #page #content {
     background-color: #2f2f2f;
     color: #CACCD1;
 }
 
-#set-night:checked ~ #page h1,
-#set-night:checked ~ #page h2,
-#set-night:checked ~ #page h3,
-#set-night:checked ~ #page h4,
-#set-night:checked ~ #page h5,
-#set-night:checked ~ #page h6,
-#set-night:checked ~ #page .type-toc a {
+.body-night #page h1,
+.body-night #page h2,
+.body-night #page h3,
+.body-night #page h4,
+.body-night #page h5,
+.body-night #page h6,
+.body-night #page .type-toc a {
     color: #E9EAEC;
 }
 
-#set-night:checked ~ #page #ceiling,
-#set-night:checked ~ #page #nav,
-#set-night:checked ~ #page .stoc {
+.body-night #page #ceiling,
+.body-night #page #nav,
+.body-night #page .stoc {
     background-color: #222;
 }
 
-#set-night:checked ~ #page #ceiling a,
-#set-night:checked ~ #page #nav a {
+.body-night #page #ceiling a,
+.body-night #page #nav a {
     color: #fff;
 }
 
-#set-night:checked ~ #page a {
+.body-night #page a {
     color: #DAECFD;
 }
-#set-night:checked ~ #page a:hover {
+.body-night #page a:hover {
     color: #fff;
 }
 
-#set-night:checked ~ #page .type h2,
-#set-night:checked ~ #page #ceiling,
-#set-night:checked ~ #page #nav .toggler,
-#set-night:checked ~ #page .stoc {
+.body-night #page .type h2,
+.body-night #page #ceiling,
+.body-night #page #nav .toggler,
+.body-night #page .stoc {
     border-bottom-color: #555;
     border-right-color: #555;
 }
-#set-night:checked ~ .type-set-label .bd{
+.body-night .type-set-label .bd{
     background-color: #3f3f3f;
     color: #fff;
 }
