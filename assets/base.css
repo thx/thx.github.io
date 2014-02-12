@@ -84,6 +84,15 @@ a {
 /*
  * icons
  */
+
+#ceiling a.mi-index {
+    padding:0 10px;
+}
+
+.mi-index .iconlogo {
+    font-size: 38px;
+}
+
 .mi-projects:before {
     content: '\f082';
 }
@@ -295,6 +304,10 @@ a {
 #ceiling .bd {
     height: 45px;
     line-height: 45px;
+}
+
+#ceiling .dib {
+    vertical-align: top;
 }
 
 .ds-thread {
