@@ -5,9 +5,9 @@ script: assets/post.js
 
 <div id="page">
   {% include settings.html %}
-  {% include ceiling.html %}
   <div id="content">
     <div id="content-wrap">
+      {% include ceiling.html %}
       {% include toc.html %}
       <article class="type">
         <h1>{{ page.title }}</h1>
