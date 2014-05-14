@@ -1,0 +1,11 @@
+---
+layout: post
+title: Activity
+---
+
+{% for category in site.categories %}
+  {% if category[0] == 'activity' %}
+  {% assign posts = category[1] %}
+  {% include archive.html %}
+  {% endif %}
+{% endfor %}
