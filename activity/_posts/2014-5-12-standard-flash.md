@@ -5,10 +5,6 @@ authors:
   - name: 宫晴
 ---
 
-
-
-`规范`
-
 ---
 
 ## 淘宝接口调用
@@ -28,22 +24,22 @@ authors:
 ## 本地配置
 若要在本地测试时调用淘宝组件以及接口，需要以下几个步骤：
 
-1. 启用一个本地服务器
++ 启用一个本地服务器
 
-2. **hosts** 绑定淘宝域名 **taobao.com** 或天猫域名 **tmall.com**
++ **hosts** 绑定淘宝域名 **taobao.com** 或天猫域名 **tmall.com**
 本地hosts目录为`C:\Windows\System32\drivers\etc\hosts`
 例: `127.0.0.1  gongqing.tmall.com`
 
-3. 将游戏和html放入服务器目录下
++ 将游戏和html放入服务器目录下
 
-4. 在浏览器中通过服务器访问游戏或html
++ 在浏览器中通过服务器访问游戏或html
 例：`http://gongqing.tmall.com/game.swf`
 
 ## html嵌入游戏
 flash在页面中的嵌入要采用 **embed** 和 **param** 结合的方式，可参考下面的代码格式，只需改动flash的 **width**、 **height** 以及 **路径**。flash的路径由淘宝前端上传到服务器后生成。若需要从html向flash传参，可以参考KISSY的方法：
 [http://docs.kissyui.com/1.3/docs/html/api/component/swf/](http://docs.kissyui.com/1.3/docs/html/api/component/swf/)
 
-```
+```html
 <object width="700" height="450" id="IEgameSwf" autoplay="1" loop="1" data="***.swf" type="application/x-shockwave-flash" wmode="transparent">
   <param value="transparent" name="wmode">
   <param value="***.swf" name="movie" height="700" width="450">
@@ -56,15 +52,15 @@ flash在页面中的嵌入要采用 **embed** 和 **param** 结合的方式，�
 ## flash路径
 如果有多个flash，那么flash之间的调用必须使用 **绝对路径**。上传的时候会将几个flash放在同一级下，因此只要取到flash所在服务器的路径就可以拼接路径。具体做法如下：
 
-1. 在主调用flash中（如入口flash）使用 `root.loaderInfo.url` 取得所在服务器的路径
-2. 将取得的服务器路径拼接上被调用flash的文件名（flash文件名不要使用大写字母和中文），即得到被调用flash的绝对路径
++ 在主调用flash中（如入口flash）使用 `root.loaderInfo.url` 取得所在服务器的路径
++ 将取得的服务器路径拼接上被调用flash的文件名（flash文件名不要使用大写字母和中文），即得到被调用flash的绝对路径
 
 ## flash跨域
 因为上传时html、flash、图片都是放在不同的服务器上，因此会涉及跨域的问题。接口的访问因为使用了jsonp格式，所以不用考虑。一般跨域问题是出现在flash和html要通信的时候。解决方法如下：
 
-1. html中引入flash时加入属性 `allowScriptAccess="always"`
++ html中引入flash时加入属性 `allowScriptAccess="always"`
 
-2. flash中加入语句 `Security.allowInsecureDomain('*')`
++ flash中加入语句 `Security.allowInsecureDomain('*')`
 
 ## 素材提交
 游戏制作完成后要先在本地测试，调通了以后再发给淘宝前端，提交的素材格式是swf，如果有html也要一并提供

@@ -5,16 +5,12 @@ authors:
   - name: 宫晴
 ---
 
-
-
-`规范`
-
 ---
 
 ## 标准声明
 建议使用html5声明方法 
 
-```
+```html
 <!doctype html>
 ```
 
@@ -22,24 +18,24 @@ authors:
 ## 字符编码
 使用gbk编码
 
-```
+```html
 <meta charset="gbk">
 ```
 
 在有些浏览器中使用javascript打印出来的中文（如alert方法）会出现乱码的情况，这时候可以给对应的javascript标签也加上与页面一样的字符编码，如下：
 
-```
+```html
 <script charset="gbk"></script>
 ```
 
 ## 全站统一的JS和CSS
 TMS系统发布时会自动引入天猫或淘宝的顶部，包括全站统一的js和css。本地测试时可先将它们引入进来。
 
-```
+```html
 /*css*/
 <link rel="stylesheet" href="http://g.tbcdn.cn/??mui/global/1.1.9/global.css,mui/header/1.1.3/header.css"/>
 ```
-```
+```javascript
 /*js 此js是天猫域下的公共js，但在淘宝域下同样适用，所以测试时可以引用同一个*/
 <script src="http://g.tbcdn.cn/??kissy/k/1.3.0/kissy-min.js,mui/seed/1.1.8/seed.js,mui/global/1.0.6/tml.js,mui/global/1.1.9/global.js,mui/header/1.1.9/header.js,kissy/k/1.3.0/suggest-min.js,kissy/k/1.3.0/switchable-min.js,kissy/k/1.3.0/datalazyload-min.js"></script>
 ```
@@ -69,7 +65,7 @@ background:url("images/bg.jpg")
 + flash在页面中的嵌入要采用 **embed** 和 **param** 结合的方式，可参考下面的代码格式，只需改动flash的 **width**、 **height** 以及 **路径**。flash的路径由淘宝前端上传到服务器后生成。若需要从html向flash传参，可以参考KISSY的方法：
 [http://docs.kissyui.com/1.3/docs/html/api/component/swf/](http://docs.kissyui.com/1.3/docs/html/api/component/swf/)
 
-```
+```html
 <object width="700" height="450" id="IEgameSwf" autoplay="1" loop="1" data="***.swf" type="application/x-shockwave-flash" wmode="transparent">
   <param value="transparent" name="wmode">
   <param value="***.swf" name="movie" height="700" width="450">
@@ -82,7 +78,7 @@ background:url("images/bg.jpg")
 ## Tips
 + 页面可点击的部分（如商品链接）可使用图片热区来实现，比较方便快捷，如下：
 
-```
+```html
 <img src="images/exp.jpg" usemap="#map-exp" />
 <map id="map-exp" name="map-exp">
   <area shape="rect" coords="0,0,0,0" href="#" target="_blank" />
@@ -92,7 +88,7 @@ background:url("images/bg.jpg")
 
 + 因为现在活动页面主体区域要求是990px，但一般都是宽屏设计，为保证页面居中，可以将超出990的两边分别切割出来，并使用绝对定位。如下：
 
-```
+```html
 .wrap{width:990px;margin:0 auto;position:relative}
 .left{width:250px;height:1200px;position:absolute;top:0;left:-249px;background:url("images/left.jpg") no-repeat}
 .right{width:250px;height:1200px;position:absolute;top:0;right:-249px;background:url("images/right.jpg") no-repeat}
@@ -108,15 +104,15 @@ background:url("images/bg.jpg")
 + 因为tms系统发布时会在活动代码外部嵌套默认的容器元素，所以如果要在body标签上设置背景颜色之类的样式可能会失效。建议自行在最外层嵌套一个div，承担body的样式
 + 若页面需要宽屏展示，而且发布在天猫域下，请在样式里加入以下规则，用以覆盖天猫的默认样式
 
-```
+```html
 #content{width: 100%;}
 ```
 
 
 + 页面发布在天猫域下，底部默认会加上天猫超市的模块，若需要去掉可加入以下代码：
 
-```
-  <?php $isNeedRemai= false; ?>
+```html
+<?php $isNeedRemai= false; ?>
 ```
 
 + 页面发布在天猫域下，图片会自动加上延迟加载的效果，如果有些图片或图片所在的容器被设置了"display:none"，然后通过某些事件才把它显示出来，这时候会出现图片显示不出来的情况，需要加入以下代码：
@@ -132,7 +128,7 @@ KISSY.use("datalazyload", function(S) {
     
 ## 页面模板示例：
 
-```
+```html
 <!doctype html>
 <html>
 <head>
