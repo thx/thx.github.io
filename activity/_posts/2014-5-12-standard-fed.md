@@ -35,7 +35,8 @@ TMS系统发布时会自动引入天猫或淘宝的顶部，包括全站统一�
 /*css*/
 <link rel="stylesheet" href="http://g.tbcdn.cn/??mui/global/1.1.9/global.css,mui/header/1.1.3/header.css"/>
 ```
-```javascript
+
+```html
 /*js 此js是天猫域下的公共js，但在淘宝域下同样适用，所以测试时可以引用同一个*/
 <script src="http://g.tbcdn.cn/??kissy/k/1.3.0/kissy-min.js,mui/seed/1.1.8/seed.js,mui/global/1.0.6/tml.js,mui/global/1.1.9/global.js,mui/header/1.1.9/header.js,kissy/k/1.3.0/suggest-min.js,kissy/k/1.3.0/switchable-min.js,kissy/k/1.3.0/datalazyload-min.js"></script>
 ```
@@ -56,7 +57,7 @@ chrome、360、搜狗等，IE只考虑到IE8，尽量兼容IE7
 + css和js必须写在html里面，css写在head的style标签里，js写在页面底部的body结束标签之前
 + 页面里所有引用图片的地方，图片路径都必须加上引号，如：
 
-```
+```css
 background:url("images/bg.jpg")
 ```
 
@@ -89,11 +90,13 @@ background:url("images/bg.jpg")
 + 因为现在活动页面主体区域要求是990px，但一般都是宽屏设计，为保证页面居中，可以将超出990的两边分别切割出来，并使用绝对定位。如下：
 
 ```html
+<style>
 .wrap{width:990px;margin:0 auto;position:relative}
 .left{width:250px;height:1200px;position:absolute;top:0;left:-249px;background:url("images/left.jpg") no-repeat}
 .right{width:250px;height:1200px;position:absolute;top:0;right:-249px;background:url("images/right.jpg") no-repeat}
 
 /*建议left和right的值比宽度小1个像素，因为经常会出现有1像素白边的情况*/
+</style>
 
 <div class="wrap">
   <div class="left"></div>
@@ -104,14 +107,14 @@ background:url("images/bg.jpg")
 + 因为tms系统发布时会在活动代码外部嵌套默认的容器元素，所以如果要在body标签上设置背景颜色之类的样式可能会失效。建议自行在最外层嵌套一个div，承担body的样式
 + 若页面需要宽屏展示，而且发布在天猫域下，请在样式里加入以下规则，用以覆盖天猫的默认样式
 
-```html
+```css
 #content{width: 100%;}
 ```
 
 
 + 页面发布在天猫域下，底部默认会加上天猫超市的模块，若需要去掉可加入以下代码：
 
-```html
+```php
 <?php $isNeedRemai= false; ?>
 ```
 
@@ -126,7 +129,7 @@ KISSY.use("datalazyload", function(S) {
 
 
     
-## 页面模板示例：
+## 页面模板示例
 
 ```html
 <!doctype html>
