@@ -19,6 +19,7 @@ authors:
 ```
 ## js框架
 Js框架建议用淘宝的KISSY，若非要使用jQuery，请不要使用 `$` 字符，而是替换成 `jQuery`，否则会与发布系统冲突
+
 ```javascript
 function scroll(){
   jQuery(".adward-list li:first").animate({height: 0, opacity: 0}, 'slow', function(){})
