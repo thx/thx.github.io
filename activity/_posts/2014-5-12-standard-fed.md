@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 前端页面规范
+title: minisite 前端页面规范
 authors:
   - name: 宫晴
 ---

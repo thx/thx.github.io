@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 运营参考规范
+title: minisite 运营参考规范
 authors:
   - name: 宫晴
 ---

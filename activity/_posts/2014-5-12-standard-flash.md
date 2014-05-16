@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 游戏制作规范
+title: minisite 游戏制作规范
 authors:
   - name: 宫晴
 ---

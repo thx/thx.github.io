@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 客户参考规范
+title: minisite 客户参考规范
 authors:
   - name: 宫晴
 ---
@@ -70,8 +70,7 @@ authors:
   ![分享](http://gtms01.alicdn.com/tps/i1/T14TsXFF0bXXX.DX34-447-375.jpg)
 
 + **视频**
-视频请先上传到视频服务器，然后将地址发给前端。可以传到淘宝视频、优酷、土豆等。视频地址就是上传后以.swf结尾的地址。如：
-`http://cloud.video.taobao.com//play/u/290394574/p/2/e/1/t/1/11139819.swf`
+视频请先上传到视频服务器，然后将地址发给前端。可以传到淘宝视频、优酷、土豆等。视频地址就是上传后以.swf结尾的地址。淘宝视频上传地址为：[http://ugc.taobao.com/](http://ugc.taobao.com/)
   
 ## 图片要求
 保存图片时选择 `存储为web和设备所用格式` 选项，背景能切成小块进行平铺的尽量切成小块，切图时如果是纯文字，或者全是色块的，建议使用png-8的格式进行保存；如果使用jpg格式保存图片的，请将品质压缩在60，个别如果图片不清晰，可以适度加大图片保存品质。如果是必须使用圆角等需要透明背景的情况，才使用png-24格式。png图片请使用tinypng压缩工具进行压缩，地址：[https://tinypng.com/](https://tinypng.com/)
@@ -94,3 +93,8 @@ authors:
 
 ## 页面测试
 页面进入测试阶段后，请及时提交测试报告给接口运营，前端会以及修正。
+
+## 规范
+[《客户参考规范》](http://thx.alibaba-inc.com/activity/standard-client/)
+[《前端页面规范》](http://thx.alibaba-inc.com/activity/standard-fed/)
+[《游戏制作规范》](http://thx.alibaba-inc.com/activity/standard-flash/)
