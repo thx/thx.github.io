@@ -45,11 +45,23 @@ TMS系统发布时会自动引入天猫或淘宝的顶部，包括全站统一�
 ## js框架
 Js框架建议用淘宝的KISSY，若非要使用jQuery，请不要使用 `$` 字符，而是替换成 `jQuery`，否则会与发布系统冲突
 
+```javascript
+function scroll(){
+  jQuery(".adward-list li:first").animate({height: 0, opacity: 0}, 'slow', function(){})
+}
+```
+
 ## 图片要求
 保存图片时选择 `存储为web和设备所用格式` 选项，背景能切成小块进行平铺的尽量切成小块，切图时如果是纯文字，或者全是色块的，建议使用png-8的格式进行保存；如果使用jpg格式保存图片的，请将品质压缩在60，个别如果图片不清晰，可以适度加大图片保存品质。如果是必须使用圆角等需要透明背景的情况，才使用png-24格式。png图片请使用tinypng压缩工具进行压缩，地址：[https://tinypng.com/](https://tinypng.com/)
 
+![保存示例](http://gtms04.alicdn.com/tps/i4/T1HQMcFMRcXXcBfSTk-354-463.jpg)
+
+![jpg](http://gtms03.alicdn.com/tps/i3/T1wHUbFN4cXXXim52h-990-240.jpg)
+
 ## 浏览器兼容性
-chrome、360、搜狗等，IE只考虑到IE8，尽量兼容IE7
+chrome、Firefox、IE8、360、Safari、搜狗、尽量兼容IE7
+
+![浏览器](http://gtms02.alicdn.com/tps/i2/T18QEfFH4bXXaAuyIf-550-88.png)
 
 ## 代码规范
 
