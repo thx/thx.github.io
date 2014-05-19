@@ -79,6 +79,9 @@ authors:
 
 ![jpg](http://gtms03.alicdn.com/tps/i3/T1wHUbFN4cXXXim52h-990-240.jpg)
 
+## 浏览器支持
+chrome、Safari、Firefox、IE8及以上版本、360浏览器、搜狗浏览器等高级浏览器
+
 ## 游戏方
 若活动中涉及游戏，且使用flash实现，必须由客户或第三方广告公司完成，淘宝这边没有支持flash开发的资源。客户要做好相关的协调工作，将[《游戏制作规范》](http://thx.alibaba-inc.com/activity/standard-flash/)发与游戏公司
 

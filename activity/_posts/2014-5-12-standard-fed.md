@@ -139,8 +139,23 @@ KISSY.use("datalazyload", function(S) {
 });
 ```
 
++ 新版TMS只能发布淘宝域的页面，而且没有公共的套头和吊顶，如果活动有需要可以手动引入:
 
-    
+![吊顶](http://gtms01.alicdn.com/tps/i1/T1FX.hFSBXXXc4nnIj-1029-36.jpg)
+
+```html
+<!-- assets引用 -->
+<?php _tms_subArea('/rgn/sites/global/assets.php'); ?>
+<?= $cssLink ?>
+
+<script src="http://g.tbcdn.cn/tb/global/2.6.11/global-min.js"></script>
+<?php _tms_subArea('/rgn/sites/global/site_nav.php'); ?>
+
+<script>
+TB.Global.init();
+</script>
+```
+   
 ## 页面模板示例
 
 ```html

@@ -60,7 +60,6 @@ img{display:block;}
       <div class="right"></div>
     </div>
   </div>
-  <div class="popup_shade"></div>
   
   <script></script>
 </body>
