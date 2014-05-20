@@ -16,6 +16,7 @@ authors:
 目前发布页面一般有两种方式，一种是使用旧版TMS发布天猫页面；一种是使用新版TMS发布淘宝页面，新版TMS是没有淘宝吊顶的，所以这种情况下要使用SNS登录方式
 
 ## 模块引用
+
 ```javascript
 /**** 天猫 *****/
 KISSY.use("mmcomponents/mamaTmallLogin/index",function(S,mmLogin){})
@@ -35,11 +36,13 @@ KISSY.use("mmcomponents/mamaTmallLogin/index",function(S,mmLogin){})
 该方法用于在执行某些操作前需要先检测是否登录，如果没有登录则弹出登陆框，如果已经登录则直接执行回调函数的情况
 
 + 用法
+
 ```javascript
 login(callback, force)
 ```
 
 + 参数
+
 |  Name      |  Type  |  Introduction  |
 | -----------| -------|--------------- |
 |  callback  | Function | 登录后执行的回调 |
@@ -58,6 +61,7 @@ login(function(){
 该方法用于处理登录或未登录状态下要执行的操作
 
 + 用法
+
 ```javascript
 isLogin({
   have: function(nick){}, 
@@ -66,6 +70,7 @@ isLogin({
 ```
 
 + 参数
+
 |  Name      |  Type  |  Introduction  |
 | -----------| -------|--------------- |
 |  have  | Function | 如果已登录则执行此回调。该方法有一个参数，为当前登录用户的旺旺ID，所以此方法也可用于取得用户名 |

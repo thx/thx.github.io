@@ -34,6 +34,7 @@ KISSY.use("mmcomponents/mamaShare/index",function(S,mmShare){})
 定义公用参数。除了clientId和title，其他参数都是可选的；除了clientId，其他参数也可在show方法里定义，见show方法。
 
 + 用法
+
 ```javascript
 var mShare = new mmShare({
   pageUrl : "",
@@ -47,6 +48,7 @@ var mShare = new mmShare({
 ```
 
 + 参数
+
 |  Name      |  Type  |  Introduction  |
 | -----------| -------|--------------- |
 |  pageUrl  | String | 分享后携带的链接，一般是活动页面的链接 |

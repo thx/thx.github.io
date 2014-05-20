@@ -40,11 +40,11 @@ KISSY.config({
 + [积分](http://thx.alibaba-inc.com/activity/component-score/)
 
 ## 规范
-[《客户参考规范》](http://thx.alibaba-inc.com/activity/standard-client/)
-[《前端页面规范》](http://thx.alibaba-inc.com/activity/standard-fed/)
-[《游戏制作规范》](http://thx.alibaba-inc.com/activity/standard-flash/)
-[《运营参考规范》](http://thx.alibaba-inc.com/activity/standard-operate/)
-[《平台活动前端规范》](http://thx.alibaba-inc.com/activity/standard-platform-fed/)
++ [《客户参考规范》](http://thx.alibaba-inc.com/activity/standard-client/)
++ [《前端页面规范》](http://thx.alibaba-inc.com/activity/standard-fed/)
++ [《游戏制作规范》](http://thx.alibaba-inc.com/activity/standard-flash/)
++ [《运营参考规范》](http://thx.alibaba-inc.com/activity/standard-operate/)
++ [《平台活动前端规范》](http://thx.alibaba-inc.com/activity/standard-platform-fed/)
 
 ## 其他
 [app自定义接口](http://thx.alibaba-inc.com/activity/)
