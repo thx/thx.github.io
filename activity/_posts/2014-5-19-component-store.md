@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 分享
+title: 收藏
 authors:
   - name: 宫晴
 ---
@@ -32,16 +32,9 @@ var mStore = new mmStore({
 
 + 参数
 
-<table>
-  <thead><th>name</th><th>type</th><th>introduction</th></thead>
-  <tbody>
-    <tr>
-      <td>app</td>
-      <td>String</td>
-      <td>必填。活动app名称，在自定义接口中设置。</td>
-    </tr>
-  </tbody>
-</table>
+  |  name      |  type    |  introduction  |
+  | -----------| -------  |--------------- |
+  |  app       |  String  |必填。活动app名称，在自定义接口中设置 |
 
 ### checkStore
 检测是否收藏店铺。如上所说，只要有一个店铺没有收藏，则返回未收藏。两个参数都是可选的。
@@ -57,21 +50,11 @@ mStore.checkStore({
 
 + 参数
 
-<table>
-  <thead><th>name</th><th>type</th><th>introduction</th></thead>
-  <tbody>
-    <tr>
-      <td>have</td>
-      <td>Function</td>
-      <td>如果已经收藏则执行此回调。</td>
-    </tr>
-    <tr>
-      <td>no</td>
-      <td>Function</td>
-      <td>如果未收藏则执行此回调</td>
-    </tr>
-  </tbody>
-</table>
+  |  name      |  type    |  introduction  |
+  | -----------| -------  |--------------- |
+  |  have      | Function |如果已经收藏则执行此回调 |    
+  |  no        | Function |如果未收藏则执行此回调   |
+
 
 ### store
 收藏店铺。如上所说，收藏时会收藏所有已配置的店铺。
