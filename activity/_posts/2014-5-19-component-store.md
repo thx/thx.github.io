@@ -32,9 +32,11 @@ var mStore = new mmStore({
 
 + 参数
 
-  |  name      |  type    |  introduction  |
-  | -----------| -------  |--------------- |
-  |  app       |  String  |必填。活动app名称，在自定义接口中设置 |
+对象字面量类型
+
+|  name      |  type    |  introduction  |
+| -----------| -------  |--------------- |
+|  app       |  String  |必填。活动app名称，在自定义接口中设置 |
 
 ### checkStore
 检测是否收藏店铺。如上所说，只要有一个店铺没有收藏，则返回未收藏。两个参数都是可选的。
@@ -44,16 +46,18 @@ var mStore = new mmStore({
 ```javascript
 mStore.checkStore({
   have: function(){},
-  no: function(){}
+  no  : function(){}
 })
 ```
 
 + 参数
 
-  |  name      |  type    |  introduction  |
-  | -----------| -------  |--------------- |
-  |  have      | Function |如果已经收藏则执行此回调 |    
-  |  no        | Function |如果未收藏则执行此回调   |
+对象字面量类型
+
+|  name      |  type    |  introduction  |
+| -----------| -------  |--------------- |
+|  have      | Function |如果已经收藏则执行此回调 |    
+|  no        | Function |如果未收藏则执行此回调   |
 
 
 ### store
@@ -65,7 +69,28 @@ mStore.checkStore({
 mStore.store(function(){})
 ```
 
+### 示例
+
+```javascript
+var mStore = new mmStore({
+  app: "gongqing"
+});
+
+mStore.checkStore({
+  have: function(){
+  	alert("您已经收藏啦！");
+  },
+  no  : function(){
+  	mStore.store(function(){
+  	  alert("收藏成功！");
+    })
+  }
+})
+```
+
+
 + 参数
+
 只有一个参数，为收藏成功后执行的回调函数。若收藏失败，会alert收藏失败的弹窗。可为空。
 
 ## Demo
