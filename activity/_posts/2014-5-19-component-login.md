@@ -16,7 +16,7 @@ authors:
 目前发布页面一般有两种方式，一种是使用旧版TMS发布天猫页面；一种是使用新版TMS发布淘宝页面，新版TMS是没有淘宝吊顶的，所以这种情况下要使用SNS登录方式
 
 ## 模块引用
-```javascipt
+```javascript
 /**** 天猫 *****/
 KISSY.use("mmcomponents/mamaTmallLogin/index",function(S,mmLogin){})
 

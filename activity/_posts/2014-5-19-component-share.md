@@ -21,7 +21,7 @@ authors:
 
 ## 模块引用
 
-```javascipt
+```javascript
 /**** 需要先引入SNS的核心模块 *****/
 <script src="http://a.tbcdn.cn/p/snsdk/core.js" ></script>
 KISSY.use("mmcomponents/mamaShare/index",function(S,mmShare){})
