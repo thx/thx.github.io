@@ -13,7 +13,7 @@ authors:
 
 ```javascript
 /**** 天猫 *****/
-KISSY.use("mmcomponents/mamaStore/index",function(S,mmLogin){})
+KISSY.use("mmcomponents/mamaStore/index",function(S,mmStore){})
 ```
 
 ## 接口
@@ -32,11 +32,11 @@ var mStore = new mmStore({
 
 + 参数
 
-<table class="paramTable">
+<table>
   <thead><th>name</th><th>type</th><th>introduction</th></thead>
   <tbody>
     <tr>
-      <td class="strong">app</td>
+      <td>app</td>
       <td>String</td>
       <td>必填。活动app名称，在自定义接口中设置。</td>
     </tr>
@@ -57,16 +57,16 @@ mStore.checkStore({
 
 + 参数
 
-<table class="paramTable">
+<table>
   <thead><th>name</th><th>type</th><th>introduction</th></thead>
   <tbody>
     <tr>
-      <td class="strong">have</td>
+      <td>have</td>
       <td>Function</td>
       <td>如果已经收藏则执行此回调。</td>
     </tr>
     <tr>
-      <td class="strong">no</td>
+      <td>no</td>
       <td>Function</td>
       <td>如果未收藏则执行此回调</td>
     </tr>
