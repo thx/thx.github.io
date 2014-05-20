@@ -17,7 +17,6 @@ authors:
 <script src="http://g.tbcdn.cn/??kissy/k/1.3.0/kissy-min.js"></script>
 ```
 
-## 组件
 ```javascript
 KISSY.config({
   debug: true,
@@ -31,6 +30,8 @@ KISSY.config({
 });
 ```
 
+## 组件
+
 + [登录](http://thx.alibaba-inc.com/activity/component-login/)
 + [分享](http://thx.alibaba-inc.com/activity/component-share/)
 + [收藏](http://thx.alibaba-inc.com/activity/component-store/)
@@ -40,11 +41,11 @@ KISSY.config({
 + [积分](http://thx.alibaba-inc.com/activity/component-score/)
 
 ## 规范
-[《客户参考规范》](http://thx.alibaba-inc.com/activity/standard-client/)
-[《前端页面规范》](http://thx.alibaba-inc.com/activity/standard-fed/)
-[《游戏制作规范》](http://thx.alibaba-inc.com/activity/standard-flash/)
-[《运营参考规范》](http://thx.alibaba-inc.com/activity/standard-operate/)
-[《平台活动前端规范》](http://thx.alibaba-inc.com/activity/standard-platform-fed/)
++ [《客户参考规范》](http://thx.alibaba-inc.com/activity/standard-client/)
++ [《前端页面规范》](http://thx.alibaba-inc.com/activity/standard-fed/)
++ [《游戏制作规范》](http://thx.alibaba-inc.com/activity/standard-flash/)
++ [《运营参考规范》](http://thx.alibaba-inc.com/activity/standard-operate/)
++ [《平台活动前端规范》](http://thx.alibaba-inc.com/activity/standard-platform-fed/)
 
 ## 其他
 [app自定义接口](http://thx.alibaba-inc.com/activity/)
