@@ -12,7 +12,9 @@ exclude:
 
 markdown: redcarpet
 redcarpet:
-  extensions: [with_toc_data]
+  extensions:
+    - with_toc_data
+    - tables
 
 title: THX
 encoding: utf-8
