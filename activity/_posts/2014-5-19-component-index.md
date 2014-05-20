@@ -17,7 +17,6 @@ authors:
 <script src="http://g.tbcdn.cn/??kissy/k/1.3.0/kissy-min.js"></script>
 ```
 
-## 组件
 ```javascript
 KISSY.config({
   debug: true,
@@ -30,6 +29,8 @@ KISSY.config({
   ]
 });
 ```
+
+## 组件
 
 + [登录](http://thx.alibaba-inc.com/activity/component-login/)
 + [分享](http://thx.alibaba-inc.com/activity/component-share/)
