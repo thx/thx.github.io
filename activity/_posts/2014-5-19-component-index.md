@@ -25,7 +25,7 @@ KISSY.config({
   packages: [
     {
       name: "mmcomponents",
-      path: "http://g.tbcdn.cn/mm/mamacomponent/0.0.5/",
+      path: "http://g.tbcdn.cn/mm/mamacomponent/0.0.6/",
       combine:false
     }
   ]
