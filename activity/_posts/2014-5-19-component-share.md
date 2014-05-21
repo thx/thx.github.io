@@ -15,7 +15,7 @@ authors:
 
 若有需要，可设置默认也分享到微博。如果有绑定微博，则微博图标默认点亮，如果没有绑定，则会提示先绑定微博。但是必须说明的是绑定微博和分享到微博是无法强制的。
 
-  ![分享](http://gtms01.alicdn.com/tps/i1/T1y9LaFypcXXbm_V34-450-377.jpg)
+  ![分享](http://gtms04.alicdn.com/tps/i4/T1CkPuFupiXXX.DX34-447-375.jpg)
   
   ![分享](http://gtms04.alicdn.com/tps/i4/T18KebFqXkXXXSDww6-448-376.jpg)
 

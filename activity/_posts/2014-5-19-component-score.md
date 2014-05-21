@@ -16,7 +16,7 @@ KISSY.use("mmcomponents/mamaScore/index",function(S,mmScore){})
 ```
 
 ## 接口
-该组件返回一个构造函数，若要调用需先创建一个新的对象。除了初始化以外的其他方法在调用时，如果当前没有登录，会弹出登录窗口，依赖 [登录组件](http://thx.alibaba-inc.com/activity/component-login/)。
+该组件返回一个构造函数，若要调用需先创建一个新的对象。除了初始化以外的其他方法在调用时，如果当前没有登录，会弹出登录窗口，依赖 [登录组件](http://thx.alibaba-inc.com/activity/component-login/) 。
 
 ### 初始化
 实例化一个积分对象
