@@ -7,6 +7,8 @@ authors:
 
 ---
 
+## 组件概述
+
 活动中用到的很多接口都是可复用的，不同的活动只是传入参数不一样。因此将接口封装起来，对外提供统一的接口变得非常有必要，使用者不用考虑具体接口的实现细节，只需做一些初始化以及调用方法即可。以下列表中的组件是活动中最常用到的。
 
 以下组件需在天猫域或淘宝域下才能正常使用，[查看如何绑定域名](http://thx.alibaba-inc.com/activity/standard-flash/#toc_1)
@@ -35,6 +37,7 @@ KISSY.config({
 + [登录](http://thx.alibaba-inc.com/activity/component-login/)
 + [分享](http://thx.alibaba-inc.com/activity/component-share/)
 + [收藏](http://thx.alibaba-inc.com/activity/component-store/)
++ [抽奖概述](http://thx.alibaba-inc.com/activity/component-lotterylist/)
 + [无效果抽奖](http://thx.alibaba-inc.com/activity/component-lottery/)
 + [九宫格抽奖](http://thx.alibaba-inc.com/activity/component-lotterynine/)
 + [圆盘抽奖](http://thx.alibaba-inc.com/activity/component-lotterycircle/)

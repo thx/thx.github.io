@@ -7,7 +7,9 @@ authors:
 
 ---
 
-[返回抽奖列表](http://thx.alibaba-inc.com/activity/component-lotterylist/)
+[返回抽奖概述](http://thx.alibaba-inc.com/activity/component-lotterylist/)
+
+## 简介
 
 九宫格抽奖的格子不限制在9个，根据客户的奖品设置和设计需求来定。
 
@@ -61,7 +63,7 @@ authors:
 /*格子点亮*/
 .lotteryBox .luck-active{z-index: 30;} 
 .lotteryBox .lotteryBtn{display: block;float:left;width: px;height: px;background: url("") no-repeat;cursor: pointer}
-/*遮层样式*/
+/*遮层样式，背景颜色和透明值可自己设置*/
 .luck-shade{position: absolute;top: 0;left: 0;width: px;height: px;background-color: #999;opacity: 0.7;filter:alpha(opacity=70);z-index: 15;display:none;}
 ```
 
@@ -126,9 +128,9 @@ lottery.run({
 
 |  Name      |  Type  |  Introduction  |
 | -----------| -------|--------------- |
-|  success  | Function | 中奖回调函数，则先执行九宫格循环到中奖格子后执行回调。此方法返回中奖结果对象。data的格式请参照 [附录一](http://thx.alibaba-inc.com/activity/component-lotterylist/) |
+|  success  | Function | 中奖回调函数，则先执行九宫格循环到中奖格子后执行回调。此方法返回中奖结果对象。data的格式请参照 [附录一](http://thx.alibaba-inc.com/activity/component-lotterylist/#toc_2) |
 |  fail | Function | 未中奖回调函数，执行情况同上 |
-| error  | Function | 如果抽奖程序报错，则直接执行此回调，不会再执行九宫格循环。<br/>此方法返回两个值，第一个是**错误码**，第二个是错误码的**说明文字**。抽奖组件中只对几种错误码进行说明，可将不需要用到的错误码或想特殊处理的错误码进行过滤。抽奖组件没有引用到错误码，则当成未中奖处理。"**用户未登录**"的情况则会直接弹出登陆框。详见 [附录二](http://thx.alibaba-inc.com/activity/component-lotterylist/)|
+| error  | Function | 如果抽奖程序报错，则直接执行此回调，不会再执行九宫格循环。<br/>此方法返回两个值，第一个是**错误码**，第二个是错误码的**说明文字**。抽奖组件中只对几种错误码进行说明，可将不需要用到的错误码或想特殊处理的错误码进行过滤。抽奖组件没有引用到错误码，则当成未中奖处理。"**用户未登录**"的情况则会直接弹出登陆框，依赖[登录组件](http://thx.alibaba-inc.com/activity/component-login/)。详见 [附录二](http://thx.alibaba-inc.com/activity/component-lotterylist/#toc_3)|
 
 ### 示例
 

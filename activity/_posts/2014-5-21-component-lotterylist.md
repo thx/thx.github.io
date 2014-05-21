@@ -7,9 +7,13 @@ authors:
 
 ---
 
+## 抽奖列表
+
 + [无效果抽奖](http://thx.alibaba-inc.com/activity/component-lottery/)
 + [九宫格抽奖](http://thx.alibaba-inc.com/activity/component-lotterynine/)
 + [圆盘抽奖](http://thx.alibaba-inc.com/activity/component-lotterycircle/)
+
+## 抽奖介绍
 
 抽奖模块是建立在抽奖器的基础上，运营配置好抽奖器后，会给到我们抽奖器的配置信息，然后我们就可以请求抽奖器的接口进行抽奖，并返回抽奖结果
 
@@ -51,7 +55,7 @@ minisite活动中用到的抽奖器一般分为三种，**九宫格抽奖**、 *
 
 ## 附录二：错误码参照表
 
-+ 表一：抽奖组件中有暴露出来的错误码
++ 表一：抽奖组件中有暴露出来的错误码，如果不想显示给用户，需要过滤
 
 |  Name  |  Introduction  |
 |--------|----------------|
