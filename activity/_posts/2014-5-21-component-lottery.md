@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 九宫格抽奖
+title: 无效果抽奖
 authors:
   - name: 宫晴
 ---
