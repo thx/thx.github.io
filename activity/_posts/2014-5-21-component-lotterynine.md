@@ -147,7 +147,7 @@ var adwardArray = {
   "谢谢参与"    :{luckItem: [1, 4, 5],popupItem: 0},
 };
 //抽奖弹窗，与抽奖器运行无关
-popupBox = S.all(".luckPopup");
+popupBox = $(".luckPopup");
 
 //初始化
 var mLottery = new mmLottery({
