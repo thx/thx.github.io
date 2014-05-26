@@ -48,6 +48,7 @@ KISSY.config({
 + [加入购物车](http://thx.tbsite.net/vegas/activity/component-cart/)
 + [旺旺点灯](http://thx.tbsite.net/vegas/activity/component-ww/)
 
+
 ## 规范
 + [《客户参考规范》](http://thx.alibaba-inc.com/activity/standard-client/)
 + [《前端页面规范》](http://thx.alibaba-inc.com/activity/standard-fed/)
