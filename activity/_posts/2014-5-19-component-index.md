@@ -32,6 +32,8 @@ KISSY.config({
 });
 ```
 
+**注: 处于安全性考虑，组件和功能只能内网才能查看哦~~**
+
 ## 组件
 
 + [登录](http://thx.tbsite.net/vegas/activity/component-login/)
