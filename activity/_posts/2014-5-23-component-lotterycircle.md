@@ -48,6 +48,7 @@ authors:
 ## 模块引用
 
 因为转盘的转动目前使用了jQuery来实现，所以还需要先引用jQuery和rotate组件
+
 ```html
 <script src="http://a.tbcdn.cn/libs/jquery/1.7.1/jquery.js"></script> 
 <script src="http://display.taobao.com/js/danz/rotate.js"></script>
