@@ -47,6 +47,12 @@ authors:
 
 ## 模块引用
 
+因为转盘的转动目前使用了jQuery来实现，所以还需要先引用jQuery和rotate组件
+```html
+<script src="http://a.tbcdn.cn/libs/jquery/1.7.1/jquery.js"></script> 
+<script src="http://display.taobao.com/js/danz/rotate.js"></script>
+```
+
 ```javascript
 KISSY.use("mmcomponents/mamaCircleLottery/index", function(S, mmLottery){})
 ```
@@ -64,7 +70,7 @@ var adwardArray = {
   "谢谢参与" :{luckItem: [],popupItem: },
 };
 
-var lottery = new mmLottery({
+var mLottery = new mmLottery({
   app        :"",
   adwardArray: adwardArray,
   luckNum    : 
@@ -87,7 +93,7 @@ var lottery = new mmLottery({
 + 用法
 
 ```javascript
-lottery.run({
+mLottery.run({
   success: function(data){},
   fail: function(){},
   error: function(error, value){}
@@ -116,17 +122,17 @@ var adwardArray = {
   "谢谢参与"                       :{luckItem: [1,5,8,11],popupItem: 0}
 };
 //抽奖弹窗，与抽奖器运行无关
-popupBox = $(".luckPopup");
+var popupBox = $(".luckPopup");
 
 //初始化
-var lottery = new mmLottery({
+var mLottery = new mmLottery({
   app: "chowseng14",
   adwardArray: adwardArray,
   luckNum   : 12
 })
 
 //抽奖
-lottery.run({
+mLottery.run({
   success: function(data){
     //中奖
     $(popupBox[adwardArray[data.name].popupItem]).show();//弹窗，仅供参考

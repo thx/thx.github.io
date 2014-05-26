@@ -86,7 +86,7 @@ var adwardArray = {
   "谢谢参与" :{luckItem: [],popupItem: },
 };
 
-var lottery = new mmLottery({
+var mLottery = new mmLottery({
   app        : '',
   luckName   : "",
   luckNum    : ,
@@ -117,7 +117,7 @@ var lottery = new mmLottery({
 + 用法
 
 ```javascript
-lottery.run({
+mLottery.run({
   success: function(data){},
   fail: function(){},
   error: function(error, value){}
@@ -147,7 +147,7 @@ var adwardArray = {
   "谢谢参与"    :{luckItem: [1, 4, 5],popupItem: 0},
 };
 //抽奖弹窗，与抽奖器运行无关
-popupBox = $(".luckPopup");
+var popupBox = $(".luckPopup");
 
 //初始化
 var mLottery = new mmLottery({
@@ -161,7 +161,7 @@ var mLottery = new mmLottery({
 });
 
 //抽奖
-lottery.run({
+mLottery.run({
   success: function(data){
     //中奖
     $(popupBox[adwardArray[data.name].popupItem]).show();//弹窗，仅供参考

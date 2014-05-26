@@ -27,7 +27,7 @@ KISSY.use("mmcomponents/mamaLottery/index", function(S, mmLottery){})
 + 用法：
 
 ```javascript
-var lottery = new mmLottery({
+var mLottery = new mmLottery({
   app: "sanyang14"
 });
 ```
@@ -44,7 +44,7 @@ var lottery = new mmLottery({
 + 用法
 
 ```javascript
-lottery.run({
+mLottery.run({
   success: function(data){},
   fail: function(){},
   error: function(error, value){}
@@ -63,12 +63,12 @@ lottery.run({
 
 ```javascript
 //初始化
-var lottery = new mmLottery({
+var mLottery = new mmLottery({
   app: "sanyang14"
 });
 
 //抽奖
-lottery.run({
+mLottery.run({
   success: function(data){
     //中奖
     alert(data.name);
