@@ -29,8 +29,9 @@ authors:
 
 + 如果由淘宝前端进行切割，素材应包括 **活动demo**、 **活动页**、 **弹窗**、 **swf（如果有）**、 **分享素材** 
 
-+ 如果由客户切割，交由淘宝前端进行上传，素材应包括 **html文件**、 **图片**、 **swf** <br/>
-参考 [《前端页面规范》](http://thx.alibaba-inc.com/activity/standard-fed/)<br/>
++ 如果由客户切割，交由淘宝前端进行上传，素材应包括 **html文件**、 **swf** 。页面中用到的图片可以上传到店铺后台的图片空间，[上传地址](http://tadget.taobao.com/redaction/manager.htm 
+)，或者发给淘宝前端进行上传（推荐前者）<br/>
+页面切割参考 [《前端页面规范》](http://thx.alibaba-inc.com/activity/standard-fed/)<br/>
   注：一定要按照规范进行切割，否则不予进行上传。
 
 ## 素材说明
