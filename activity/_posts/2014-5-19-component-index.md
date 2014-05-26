@@ -34,14 +34,19 @@ KISSY.config({
 
 ## 组件
 
-+ [登录](http://thx.alibaba-inc.com/activity/component-login/)
-+ [分享](http://thx.alibaba-inc.com/activity/component-share/)
-+ [收藏](http://thx.alibaba-inc.com/activity/component-store/)
-+ [抽奖概述](http://thx.alibaba-inc.com/activity/component-lotterylist/)
-+ [无效果抽奖](http://thx.alibaba-inc.com/activity/component-lottery/)
-+ [九宫格抽奖](http://thx.alibaba-inc.com/activity/component-lotterynine/)
-+ [圆盘抽奖](http://thx.alibaba-inc.com/activity/component-lotterycircle/)
-+ [积分](http://thx.alibaba-inc.com/activity/component-score/)
++ [登录](http://thx.tbsite.net/vegas/activity/component-login/)
++ [分享](http://thx.tbsite.net/vegas/activity/component-share/)
++ [收藏](http://thx.tbsite.net/vegas/activity/component-store/)
++ [抽奖概述](http://thx.tbsite.net/vegas/activity/component-lotterylist/)
++ [无效果抽奖](http://thx.tbsite.net/vegas/activity/component-lottery/)
++ [九宫格抽奖](http://thx.tbsite.net/vegas/activity/component-lotterynine/)
++ [圆盘抽奖](http://thx.tbsite.net/vegas/activity/component-lotterycircle/)
++ [积分](http://thx.tbsite.net/vegas/activity/component-score/)
+
+## 常用的功能
+
++ [加入购物车](http://thx.tbsite.net/vegas/activity/component-cart/)
++ [旺旺点灯](http://thx.tbsite.net/vegas/activity/component-ww/)
 
 ## 规范
 + [《客户参考规范》](http://thx.alibaba-inc.com/activity/standard-client/)
