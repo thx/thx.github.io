@@ -6,6 +6,8 @@ authors:
 ---
 
 ---
+## **安全！**
+活动中用到的接口必须由淘宝提供，不得自己开发接口和调用外部服务器上的后台程序。
 
 ## 标准声明
 使用html5声明方法
@@ -18,7 +20,7 @@ authors:
 <meta charset="gbk">
 ```
 ## js框架
-Js框架建议用淘宝的KISSY，若非要使用jQuery，请不要使用 `$` 字符，而是替换成 `jQuery`，否则会与发布系统冲突
+Js框架建议尽量用淘宝的KISSY，若非要使用jQuery，请不要使用 `$` 字符，而是替换成 `jQuery`，否则会与发布系统冲突
 
 ```javascript
 function scroll(){
@@ -55,7 +57,7 @@ img{display:block;}
 <body>
   <div class="contain">
     <div class="wrap">
-    	<img src="images/.jpg" />
+      <img src="images/.jpg" />
       <div class="left"></div>
       <div class="right"></div>
     </div>
