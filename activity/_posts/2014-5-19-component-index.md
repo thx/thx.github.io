@@ -13,10 +13,10 @@ authors:
 
 以下组件需在天猫域或淘宝域下才能正常使用，[查看如何绑定域名](http://thx.alibaba-inc.com/activity/standard-flash/#toc_1)
 
-使用前需先引入KISSY 1.3，以及做好包配置。
+使用前需先引入KISSY 1.4，以及做好包配置。
 
 ```html
-<script src="http://g.tbcdn.cn/??kissy/k/1.3.0/kissy-min.js"></script>
+<script src="http://g.tbcdn.cn/??kissy/k/1.4.1/seed-min.js"></script>
 ```
 
 ```javascript
@@ -25,7 +25,7 @@ KISSY.config({
   packages: [
     {
       name: "mmcomponents",
-      path: "http://g.tbcdn.cn/mm/mamacomponent/0.0.9/",
+      path: "http://g.tbcdn.cn/mm/mamacomponent/0.0.21/",
       combine:false
     }
   ]
