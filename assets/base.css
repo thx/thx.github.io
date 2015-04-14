@@ -117,6 +117,9 @@ a {
     content: '\343a';
 }
 .mi-canvax:before {
+    content: '\e600';
+}
+.mi-chartx:before {
     content: '\3437';
 }
 .mi-bisheng:before {
