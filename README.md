@@ -25,7 +25,7 @@ $ z thx.github.io   # 切换到 THX 代码目录
 $ darko serve
 ```
 
-然后访问 <http://localhost:4100> 即可。
+然后访问 <http://localhost:4000> 即可。
 
 ### jekyll
 
@@ -36,10 +36,4 @@ $ gem install github-pages
 ```
 
 Mac 用户，如果使用的是自带的 Ruby，可能需要在命令前加上 sudo；Windows 用户，请参考
-[阿狼的文章](http://stormtea123.github.io/jekyll-window7.av/)。
-
-## 镜像
-
-除了默认的 http://thx.github.io 之外，还可以通过 http://thx.alibaba-inc.com 访问
-THX 。后者是 THX 的镜像，放在独立的服务器上。
-
+[阿狼的文章](http://stormtea123.github.io/jekyll.av/)。
