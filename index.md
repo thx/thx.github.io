@@ -64,4 +64,8 @@ THX是Thanks的缩写，感谢所有促成THX的力量。
     <h3>资质系统原型</h3>
     <a href="http://thx.tbsite.net/crm_brand_demo"><img src="/assets/img/biz/crm.png"></a>
   </div>
+  <div class="biz dib">
+    <h3>海淘系统原型</h3>
+    <a href="http://thx.tbsite.net/haitao_demo"><img src="/assets/img/biz/haitao.png"></a>
+  </div>
 </div>
