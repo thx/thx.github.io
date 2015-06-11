@@ -56,4 +56,12 @@ THX是Thanks的缩写，感谢所有促成THX的力量。
     <h3>钻石展位营销平台原型</h3>
     <a href="http://thx.tbsite.net/zuanshi_minisite_demo"><img src="/assets/img/biz/zuanshi_minisite.png"></a>
   </div>
+  <div class="biz dib">
+    <h3>智无线原型</h3>
+    <a href="http://thx.tbsite.net/zhiwuxian_demo"><img src="/assets/img/biz/zhiwuxian.png"></a>
+  </div>
+  <div class="biz dib">
+    <h3>资质系统原型</h3>
+    <a href="http://thx.tbsite.net/crm_brand_demo"><img src="/assets/img/biz/crm.png"></a>
+  </div>
 </div>
