@@ -7,43 +7,31 @@ authors:
 
 ---
 
-## 组件概述
+
+## 组件
 
 活动中用到的很多接口都是可复用的，不同的活动只是传入参数不一样。因此将接口封装起来，对外提供统一的接口变得非常有必要，使用者不用考虑具体接口的实现细节，只需做一些初始化以及调用方法即可。以下列表中的组件是活动中最常用到的。
 
 以下组件需在天猫域或淘宝域下才能正常使用，[查看如何绑定域名](http://thx.alibaba-inc.com/activity/standard-flash/#toc_1)
 
-使用前需先引入KISSY 1.4，以及做好包配置。
-
-```html
-<script src="http://g.tbcdn.cn/??kissy/k/1.4.1/seed-min.js"></script>
-```
-
-```javascript
-KISSY.config({
-  debug: true,
-  packages: [
-    {
-      name: "mmcomponents",
-      path: "http://g.tbcdn.cn/mm/mamacomponent/0.0.22/",
-      combine:false
-    }
-  ]
-});
-```
-
 **注: 出于安全性考虑，组件和功能只能内网才能查看哦~~**
 
-## 组件
-
++ [组件概述（必看！）](http://thx.tbsite.net/vegas/activity/component-index/)
 + [登录](http://thx.tbsite.net/vegas/activity/component-login/)
 + [分享](http://thx.tbsite.net/vegas/activity/component-share/)
-+ [收藏](http://thx.tbsite.net/vegas/activity/component-store/)
++ [天猫分享](http://thx.tbsite.net/vegas/activity/component-share-tmall/)
 + [抽奖概述](http://thx.tbsite.net/vegas/activity/component-lotterylist/)
-+ [无效果抽奖](http://thx.tbsite.net/vegas/activity/component-lottery/)
++ [基础抽奖](http://thx.tbsite.net/vegas/activity/component-lottery/)
 + [九宫格抽奖](http://thx.tbsite.net/vegas/activity/component-lotterynine/)
 + [圆盘抽奖](http://thx.tbsite.net/vegas/activity/component-lotterycircle/)
 + [积分](http://thx.tbsite.net/vegas/activity/component-score/)
++ [收藏店铺](http://thx.tbsite.net/vegas/activity/component-store/)
++ [收藏商品](http://thx.tbsite.net/vegas/activity/component-storeGood/)
++ [优惠券](http://thx.tbsite.net/vegas/activity/component-coupon/)
++ [表单](http://thx.tbsite.net/vegas/activity/component-form/)
++ [关注品牌](http://thx.tbsite.net/vegas/activity/component-brand/)
++ [数据统计](http://thx.tbsite.net/vegas/activity/component-log/)
++ [签到](http://thx.tbsite.net/vegas/activity/component-signin/)
 
 ## 常用的功能
 
@@ -57,6 +45,3 @@ KISSY.config({
 + [《游戏制作规范》](http://thx.alibaba-inc.com/activity/standard-flash/)
 + [《运营参考规范》](http://thx.alibaba-inc.com/activity/standard-operate/)
 + [《平台活动前端规范》](http://thx.alibaba-inc.com/activity/standard-platform-fed/)
-
-## 其他
-[app自定义接口](http://thx.alibaba-inc.com/activity/)
