@@ -32,52 +32,52 @@ THX是Thanks的缩写，感谢所有促成THX的力量。
 <div class="supporting-biz justify dib-box">
   <div class="biz dib">
     <h3>淘宝直通车系统原型</h3>
-    <a href="http://thx.tbsite.net/bp_demo"><img src="/assets/img/biz/bp.png"></a>
+    <a href="http://thx.taobao.org/bp_demo"><img src="/assets/img/biz/bp.png"></a>
   </div>
   <div class="biz dib">
     <h3>淘宝直通车系统（移动版）原型</h3>
-    <a href="http://thx.tbsite.net/mbp_demo/">
+    <a href="http://thx.taobao.org/mbp_demo/">
       <img class="shadow qr-code" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQUAAAEFAQMAAADQWGDSAAAABlBMVEUAAAD///+l2Z/dAAABrUlEQVRoge2Zu7GEMAxFtbMBISVQCqVBaZTiEggdMOhZP2O88Cq4N8GDDolGsj4QmT5clOywlsdwUCcQoUVsx4dp2aZ62IdDv+EdxC+xiQfFwGlkP9gbognEO8HrnDT4ysG9DOJ/QpSvvAXxSnjeMnvelgON/JDZIIwwNRecH6gTCBdXrURjljdrCb4h3mYQPWGGmreqyc2bmEDcCcnbnb6nlgR1pd59rrjpQFyEFFELPq5o8Wkm70gyiI4wD345+g81GGoHEI+Eth1zyduCEhVUv2ELRxA3QoNP05Vq3up44EUCRE94cvrkmTX4pCR8/RsQv0TpzyiCz33q0rgE0RPkF5yXBIlL9empphFETxTXJY85qiOoOVcnKxA9YVlKTQKrc+tODURPaMkc+LTgY9bgkwvO1xwEoid0GDi8BChqBpN1wSBaIqThaKvGuXYkiQhER7ianWOz6Y6UBtESi1hicXat0pi5zlEg7sQWRTSWsz4MiKJ6gHggrCTY0M7e9doWEsQLsXD8O5ltaBd1f/BAtHkb44H+0YzJ6nbTgUj32uC1wnq4o1nPgmiIPyUBfcQ2Vrm9AAAAAElFTkSuQmCC">
     </a>
   </div>
   <div class="biz dib">
     <h3>Tanx DMP 数据营销系统原型</h3>
-    <a href="http://thx.tbsite.net/dmp_demo"><img src="/assets/img/biz/dmp.png"></a>
+    <a href="http://thx.taobao.org/dmp_demo"><img src="/assets/img/biz/dmp.png"></a>
   </div>
   <div class="biz dib">
     <h3>Adhoc 大数据查询系统原型</h3>
-    <a href="http://thx.tbsite.net/adhoc_demo"><img src="/assets/img/biz/adhoc.png"></a>
+    <a href="http://thx.taobao.org/adhoc_demo"><img src="/assets/img/biz/adhoc.png"></a>
   </div>
   <div class="biz dib">
     <h3>钻石展位系统原型</h3>
-    <a href="http://thx.tbsite.net/zuanshi_demo"><img src="/assets/img/biz/zuanshi.png"></a>
+    <a href="http://thx.taobao.org/zuanshi_demo"><img src="/assets/img/biz/zuanshi.png"></a>
   </div>
   <div class="biz dib">
     <h3>钻石展位营销平台原型</h3>
-    <a href="http://thx.tbsite.net/zuanshi_minisite_demo"><img src="/assets/img/biz/zuanshi_minisite.png"></a>
+    <a href="http://thx.taobao.org/zuanshi_minisite_demo"><img src="/assets/img/biz/zuanshi_minisite.png"></a>
   </div>
   <div class="biz dib">
     <h3>智无线原型</h3>
-    <a href="http://thx.tbsite.net/zhiwuxian_demo"><img src="/assets/img/biz/zhiwuxian.png"></a>
+    <a href="http://thx.taobao.org/zhiwuxian_demo"><img src="/assets/img/biz/zhiwuxian.png"></a>
   </div>
   <div class="biz dib">
     <h3>资质系统原型</h3>
-    <a href="http://thx.tbsite.net/crm_brand_demo"><img src="/assets/img/biz/crm.png"></a>
+    <a href="http://thx.taobao.org/crm_brand_demo"><img src="/assets/img/biz/crm.png"></a>
   </div>
   <div class="biz dib">
     <h3>海淘系统原型</h3>
-    <a href="http://thx.tbsite.net/haitao_demo"><img src="/assets/img/biz/haitao.png"></a>
+    <a href="http://thx.taobao.org/haitao_demo"><img src="/assets/img/biz/haitao.png"></a>
   </div>
   <div class="biz dib">
     <h3>钻石展位 4.5 系统原型</h3>
-    <a href="http://thx.tbsite.net/zuanshi_45_demo/indexbp.html"><img src="/assets/img/biz/zuanshi_45.png"></a>
+    <a href="http://thx.taobao.org/zuanshi_45_demo/indexbp.html"><img src="/assets/img/biz/zuanshi_45.png"></a>
   </div>
   <div class="biz dib">
     <h3>阿里妈妈营销平台</h3>
-    <a href="http://thx.tbsite.net/amp_demo/"><img src="/assets/img/biz/amp.png"></a>
+    <a href="http://thx.taobao.org/amp_demo/"><img src="/assets/img/biz/amp.png"></a>
   </div>
   <div class="biz dib">
     <h3>淘宝直通车营销平台</h3>
-    <a href="http://thx.tbsite.net/mkp_demo/"><img src="/assets/img/biz/mkp.png"></a>
+    <a href="http://thx.taobao.org/mkp_demo/"><img src="/assets/img/biz/mkp.png"></a>
   </div>
 </div>

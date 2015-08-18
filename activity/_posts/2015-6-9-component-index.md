@@ -16,27 +16,27 @@ authors:
 
 **注: 出于安全性考虑，组件和功能只能内网才能查看哦~~**
 
-+ [组件概述（必看！）](http://thx.tbsite.net/vegas/activity/component-index/)
-+ [登录](http://thx.tbsite.net/vegas/activity/component-login/)
-+ [分享](http://thx.tbsite.net/vegas/activity/component-share/)
-+ [天猫分享](http://thx.tbsite.net/vegas/activity/component-share-tmall/)
-+ [抽奖概述](http://thx.tbsite.net/vegas/activity/component-lotterylist/)
-+ [基础抽奖](http://thx.tbsite.net/vegas/activity/component-lottery/)
-+ [九宫格抽奖](http://thx.tbsite.net/vegas/activity/component-lotterynine/)
-+ [圆盘抽奖](http://thx.tbsite.net/vegas/activity/component-lotterycircle/)
-+ [积分](http://thx.tbsite.net/vegas/activity/component-score/)
-+ [收藏店铺](http://thx.tbsite.net/vegas/activity/component-store/)
-+ [收藏商品](http://thx.tbsite.net/vegas/activity/component-storeGood/)
-+ [优惠券](http://thx.tbsite.net/vegas/activity/component-coupon/)
-+ [表单](http://thx.tbsite.net/vegas/activity/component-form/)
-+ [关注品牌](http://thx.tbsite.net/vegas/activity/component-brand/)
-+ [数据统计](http://thx.tbsite.net/vegas/activity/component-log/)
-+ [签到](http://thx.tbsite.net/vegas/activity/component-signin/)
++ [组件概述（必看！）](http://thx.taobao.org/vegas/activity/component-index/)
++ [登录](http://thx.taobao.org/vegas/activity/component-login/)
++ [分享](http://thx.taobao.org/vegas/activity/component-share/)
++ [天猫分享](http://thx.taobao.org/vegas/activity/component-share-tmall/)
++ [抽奖概述](http://thx.taobao.org/vegas/activity/component-lotterylist/)
++ [基础抽奖](http://thx.taobao.org/vegas/activity/component-lottery/)
++ [九宫格抽奖](http://thx.taobao.org/vegas/activity/component-lotterynine/)
++ [圆盘抽奖](http://thx.taobao.org/vegas/activity/component-lotterycircle/)
++ [积分](http://thx.taobao.org/vegas/activity/component-score/)
++ [收藏店铺](http://thx.taobao.org/vegas/activity/component-store/)
++ [收藏商品](http://thx.taobao.org/vegas/activity/component-storeGood/)
++ [优惠券](http://thx.taobao.org/vegas/activity/component-coupon/)
++ [表单](http://thx.taobao.org/vegas/activity/component-form/)
++ [关注品牌](http://thx.taobao.org/vegas/activity/component-brand/)
++ [数据统计](http://thx.taobao.org/vegas/activity/component-log/)
++ [签到](http://thx.taobao.org/vegas/activity/component-signin/)
 
 ## 常用的功能
 
-+ [加入购物车](http://thx.tbsite.net/vegas/activity/component-cart/)
-+ [旺旺点灯](http://thx.tbsite.net/vegas/activity/component-ww/)
++ [加入购物车](http://thx.taobao.org/vegas/activity/component-cart/)
++ [旺旺点灯](http://thx.taobao.org/vegas/activity/component-ww/)
 
 
 ## 规范
