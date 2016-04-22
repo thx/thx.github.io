@@ -1,5 +1,5 @@
 baseurl:
-pygments: true
+highlighter: true
 lsi: false
 permalink: /:categories/:title
 excerpt_separator: "\n\n"
