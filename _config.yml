@@ -1,20 +1,15 @@
-baseurl:
-highlighter: true
-lsi: false
-permalink: /:categories/:title
 excerpt_separator: "\n\n"
 exclude:
   - Gruntfile.js
-  - brix-core.sublime-project
-  - package.json
-  - readme.md
   - node_modules
-
-markdown: redcarpet
-redcarpet:
-  extensions:
-    - with_toc_data
-    - tables
+  - package.json
+  - README.md
 
 title: THX
-encoding: utf-8
+url: https://thx.github.io
+
+permalink: /:categories/:title
+
+gems:
+  - jekyll-feed
+  - jekyll-sitemap

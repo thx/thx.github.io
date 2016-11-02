@@ -86,7 +86,7 @@ KISSY.use('node,event', function(S, Node) {
 
 KISSY.config('packages', {
     mosaics: {
-        base: 'http://g.tbcdn.cn/a',
+        base: 'https://g.alicdn.com/a',
         combine: true,
         debug: false,
         ignorePackageNameInUri: true,

@@ -6,7 +6,7 @@
   <title>{% if page.title %}{{ page.title }} - {% endif %}THX</title>
 {% include styles.html %}
   <link rel="stylesheet" type="text/css" href="/assets/gateway.css">
-  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="http://thx.alibaba-inc.com/atom.xml">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.url }}{{ site.baseurl }}/feed.xml">
 </head>
 <body bx-app class="{% if site.baseurl %}skin-{{ site.baseurl | remove_first: '/' }} {% else %}skin-home {% endif %}">
   {{ content }}

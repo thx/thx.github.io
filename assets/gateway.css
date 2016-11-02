@@ -27,10 +27,15 @@
     border-right: 1px dashed #ddd;
     background: none;
 }
+
 .projects .banner a {
     color: #bebebe;
     display: block;
     font-size: 60px;
+}
+
+.projects .banner a:hover {
+    text-decoration: none;
 }
 
 .projects .banner:hover {

@@ -65,17 +65,19 @@ a {
  * 引入Logo字体图标
  */
 @font-face {
-  font-family: 'logo';
-  src: url('//at.alicdn.com/t/font_1461311920_12497.eot'); /* IE9*/
-  src: url('//at.alicdn.com/t/font_1461311920_12497.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('//at.alicdn.com/t/font_1461311920_12497.woff') format('woff'), /* chrome、firefox */
-  url('//at.alicdn.com/t/font_1461311920_12497.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url('//at.alicdn.com/t/font_1461311920_12497.svg#iconfont') format('svg'); /* iOS 4.1- */
+  font-family: 'iconfont';  /* project id："497" */
+  src: url('//at.alicdn.com/t/font_t0nk9obig5t81tt9.eot');
+  src: url('//at.alicdn.com/t/font_t0nk9obig5t81tt9.eot') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_t0nk9obig5t81tt9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_t0nk9obig5t81tt9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_t0nk9obig5t81tt9.svg#iconfont') format('svg');
 }
 
+.iconfont,
 .iconlogo,
-.type .iconlogo {
-    font-family: logo;
+.type .iconlogo,
+.type .iconfont {
+    font-family: iconfont;
     font-size: 20px;
     font-style: normal;
     font-weight: normal;
@@ -86,14 +88,20 @@ a {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.iconfont,
+.type .iconfont {
+    font-size: 16px;
+}
+
+
 /*
  * icons
  */
 .mi-projects:before {
-    content: '\f082';
+    content: '\e603';
 }
 .mi-mobile:before {
-    content: '\f086';
+    content: '\e60a';
 }
 .mi-brix:before {
     content: '\3433';
@@ -138,22 +146,22 @@ a {
     content: '\0123';
 }
 .mi-products:before {
-    content: '\0199';
+    content: '\e608';
 }
 
 .mi-diamond:before {
     content: '\f005';
 }
 .mi-gaming:before {
-    content: '\007a';
+    content: '\e602';
 }
 
 .mi-services:before {
-    content: '\013e';
+    content: '\e605';
 }
 
 .mi-activity:before {
-    content: "\123";
+    content: "\e604";
 }
 
 .mi-pat:before {
@@ -1209,7 +1217,7 @@ h4:hover .anchor-link {
     position: relative;
     border: 1px solid #ddd;
     margin-bottom: -1px;
-    border-radius: 3px 3px 0 0; 
+    border-radius: 3px 3px 0 0;
 }
 
 .type-demo:after {
