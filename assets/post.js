@@ -80,7 +80,7 @@ KISSY.use('node,event', function(S, Node) {
     })
 
     S.ready(function() {
-        S.getScript('http://static.duoshuo.com/embed.js')
+        S.getScript('https://static.duoshuo.com/embed.js')
     })
 })
 
