@@ -13,6 +13,8 @@ THX是Thanks的缩写，感谢所有促成THX的力量。
 - 并行开发多项前端技术产品和开源项目，如：Magix、Brix、Crox、RAP、MockJS、IconFont等等。确保每个产品都经过线上商业产品的检验，并通过本站点不断提供高质量文档。
 - 逐步促成各技术产品的充分协调，形成覆盖前端的开发、测试、运维的全链路解决方案。
 
+[![](https://img.alicdn.com/tps/TB1dLXyOXXXXXXsaXXXXXXXXXXX-640-60.jpg)](http://click.aliyun.com/m/7284/)
+
 ## Products
 
 {% include projects.html category='products' %}
