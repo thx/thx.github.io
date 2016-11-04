@@ -1,8 +1,6 @@
 excerpt_separator: "\n\n"
 exclude:
-  - Gruntfile.js
-  - node_modules
-  - package.json
+  - bin
   - README.md
 
 title: THX
