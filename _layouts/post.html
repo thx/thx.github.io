@@ -28,11 +28,14 @@ layout: page
       <i class="iconfont">&#xe60b;</i>
       <span class="label">导航</span>
     </a>
-    <h1 class="logo"><a href="/"><b class="iconlogo">&#x343b;</b></a></h1>
+    <a href="{{ site.baseurl }}" class="logo dib-box">
+      <i class="iconlogo dib mi-{{ site.title | downcase }}"></i>
+      <span class="logo-text dib">{{ site.title }}</span>
+    </a>
     <ul class="categories menu">
     {% for category in site.categories %}
       <li>
-        <a href="/{{ category[0] }}" class="entry">
+        <a href="{{ site.baseurl }}/{{ category[0] }}" class="entry">
           <i class="iconfont mi-{{ category[0] }}"></i>
           {{ category[0] | capitalize }}
         </a>
