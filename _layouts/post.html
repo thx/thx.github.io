@@ -28,7 +28,7 @@ layout: page
       <i class="iconfont">&#xe60b;</i>
       <span class="label">导航</span>
     </a>
-    <a href="{{ site.baseurl }}" class="logo dib-box">
+    <a href="{{ site.baseurl }}/" class="logo dib-box">
       <i class="iconlogo dib mi-{{ site.title | downcase }}"></i>
       <span class="logo-text dib">{{ site.title }}</span>
     </a>
@@ -37,7 +37,7 @@ layout: page
       <li>
         <a href="{{ site.baseurl }}/{{ category[0] }}" class="entry">
           <i class="iconfont mi-{{ category[0] }}"></i>
-          {{ category[0] | capitalize }}
+          {% if category[0] == 'apis' %}API{% else %}{{ category[0] | capitalize }}{% endif %}
         </a>
       </li>
     {% endfor %}

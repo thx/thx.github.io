@@ -29,8 +29,7 @@ download() {
       echo "-----> Downloading ${entry}"
       curl -o ${entry} "https://raw.githubusercontent.com/thx/base/gh-pages/${entry}"
     else
-      echo "Failed to download ${entry} because local version doesn't exist"
-      exit ${EX_DATAERR}
+      echo "-----> Skipped ${entry} because local version doesn't exist"
     fi
   done
 
@@ -43,8 +42,7 @@ upload() {
     if [ -e ${dest} ]; then
       cp ${entry} ${dest}
     else
-      echo "Failed to copy ${entry} because ${dest} doesn't exist."
-      exit ${EX_DATAERR}
+      echo "-----> Skipped ${entry} because ${dest} doesn't exist."
     fi
   done
 

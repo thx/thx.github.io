@@ -66,11 +66,11 @@ a {
  */
 @font-face {
   font-family: 'iconfont';  /* project id："497" */
-  src: url('//at.alicdn.com/t/font_t0nk9obig5t81tt9.eot');
-  src: url('//at.alicdn.com/t/font_t0nk9obig5t81tt9.eot') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_t0nk9obig5t81tt9.woff') format('woff'),
-  url('//at.alicdn.com/t/font_t0nk9obig5t81tt9.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_t0nk9obig5t81tt9.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_l0sapdsumnsl9pb9.eot');
+  src: url('//at.alicdn.com/t/font_l0sapdsumnsl9pb9.eot') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_l0sapdsumnsl9pb9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_l0sapdsumnsl9pb9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_l0sapdsumnsl9pb9.svg#iconfont') format('svg');
 }
 
 .iconfont,
@@ -101,54 +101,93 @@ a {
 .mi-base:before {
     content: '\343b';
 }
+
 .mi-projects:before {
     content: '\e603';
 }
+
 .mi-mobile:before {
     content: '\e60a';
 }
+
 .mi-brix:before {
     content: '\3433';
 }
+
 .mi-rap:before {
     content: '\3434';
 }
+
 .mi-magix:before {
     content: '\3432';
 }
+
 .mi-mock:before {
     content: '\3435';
 }
+
 .mi-crox:before {
     content: '\3436';
 }
+
 .mi-cube:before {
     content: '\3439';
 }
+
 .mi-iconfont:before {
     content: '\343a';
 }
+
 .mi-canvax:before {
     content: '\e600';
 }
+
 .mi-chartx:before {
     content: '\3437';
 }
+
 .mi-bisheng:before {
     content: '\3438';
 }
+
 .mi-releases:before {
-    content: '\0030';
+    content: '\e611';
 }
-.mi-tutorial:before {
-    content: '\016b';
+
+.mi-demos:before,
+.mi-tutorial:before,
+.mi-tutorials:before {
+    content: '\e610';
 }
+
 .mi-whos-using:before {
-    content: '\00fa';
+    content: '\e612';
 }
+
 .mi-articles:before {
-    content: '\0123';
+    content: '\e60f';
 }
+
+.mi-faq:before {
+    content: '\e613';
+}
+
+.mi-resources:before {
+    content: '\e60d';
+}
+
+.mi-list:before {
+    content: '\e614';
+}
+
+.mi-github:before {
+    content: '\e609';
+}
+
+.mi-apis:before {
+    content: '\e60c';
+}
+
 .mi-products:before {
     content: '\e608';
 }
@@ -156,6 +195,7 @@ a {
 .mi-diamond:before {
     content: '\f005';
 }
+
 .mi-gaming:before {
     content: '\e602';
 }
