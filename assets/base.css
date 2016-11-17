@@ -66,11 +66,11 @@ a {
  */
 @font-face {
   font-family: 'iconfont';  /* project id："497" */
-  src: url('//at.alicdn.com/t/font_l0sapdsumnsl9pb9.eot');
-  src: url('//at.alicdn.com/t/font_l0sapdsumnsl9pb9.eot') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_l0sapdsumnsl9pb9.woff') format('woff'),
-  url('//at.alicdn.com/t/font_l0sapdsumnsl9pb9.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_l0sapdsumnsl9pb9.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_p84tsufzf8b8olxr.eot');
+  src: url('//at.alicdn.com/t/font_p84tsufzf8b8olxr.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_p84tsufzf8b8olxr.woff') format('woff'),
+  url('//at.alicdn.com/t/font_p84tsufzf8b8olxr.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_p84tsufzf8b8olxr.svg#iconfont') format('svg');
 }
 
 .iconfont,
