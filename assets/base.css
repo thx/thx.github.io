@@ -66,11 +66,11 @@ a {
  */
 @font-face {
   font-family: 'iconfont';  /* project id："497" */
-  src: url('//at.alicdn.com/t/font_p84tsufzf8b8olxr.eot');
-  src: url('//at.alicdn.com/t/font_p84tsufzf8b8olxr.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_p84tsufzf8b8olxr.woff') format('woff'),
-  url('//at.alicdn.com/t/font_p84tsufzf8b8olxr.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_p84tsufzf8b8olxr.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_xxqssmnmc7rjm7vi.eot');
+  src: url('//at.alicdn.com/t/font_xxqssmnmc7rjm7vi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_xxqssmnmc7rjm7vi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_xxqssmnmc7rjm7vi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_xxqssmnmc7rjm7vi.svg#iconfont') format('svg');
 }
 
 .iconfont,
@@ -154,6 +154,7 @@ a {
     content: '\e611';
 }
 
+.mi-demo:before,
 .mi-demos:before,
 .mi-tutorial:before,
 .mi-tutorials:before {
@@ -164,6 +165,7 @@ a {
     content: '\e612';
 }
 
+.mi-doc:before,
 .mi-articles:before {
     content: '\e60f';
 }
@@ -184,6 +186,7 @@ a {
     content: '\e609';
 }
 
+.mi-type:before,
 .mi-apis:before {
     content: '\e60c';
 }
@@ -212,6 +215,31 @@ a {
     content: "\e601";
     font-size: 16px;
 }
+
+.mi-tadpole:before {
+    content: "\e615";
+}
+
+.mi-like:before {
+    content: "\e62f";
+}
+
+.mi-layout:before {
+    content: "\e60e";
+}
+
+.mi-source:before {
+    content: "\e616";
+}
+
+.mi-zip:before {
+    content: "\e620";
+}
+
+.mi-tool:before {
+    content: "\e640";
+}
+
 
 /*
  * Aside styles
