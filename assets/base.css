@@ -64,13 +64,21 @@ a {
 /**
  * 引入Logo字体图标
  */
-@font-face {
-  font-family: 'iconfont';  /* project id："497" */
+/*@font-face {
+  font-family: 'iconfont';
   src: url('//at.alicdn.com/t/font_xxqssmnmc7rjm7vi.eot');
   src: url('//at.alicdn.com/t/font_xxqssmnmc7rjm7vi.eot?#iefix') format('embedded-opentype'),
   url('//at.alicdn.com/t/font_xxqssmnmc7rjm7vi.woff') format('woff'),
   url('//at.alicdn.com/t/font_xxqssmnmc7rjm7vi.ttf') format('truetype'),
   url('//at.alicdn.com/t/font_xxqssmnmc7rjm7vi.svg#iconfont') format('svg');
+}*/
+@font-face {
+  font-family: 'iconfont';  /* project id 497 */
+  src: url('//at.alicdn.com/t/font_2llxrvq1dckxogvi.eot');
+  src: url('//at.alicdn.com/t/font_2llxrvq1dckxogvi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_2llxrvq1dckxogvi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_2llxrvq1dckxogvi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_2llxrvq1dckxogvi.svg#iconfont') format('svg');
 }
 
 .iconfont,
