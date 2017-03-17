@@ -3,7 +3,7 @@ layout: post
 title: Animation
 icon: e619
 homepage: http://groups.alidemo.cn/thx/brix-animation/docs/
-github: https://github.com/thx/brix-animation
+github: thx/brix-animation
 authors:
   - name: 崇志
     homepage:
