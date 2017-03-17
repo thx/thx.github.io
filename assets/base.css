@@ -224,6 +224,13 @@ a {
     content: "\e601";
     font-size: 16px;
 }
+.mi-cli:before {
+    content: "\e908";
+}
+
+.mi-animation:before {
+    content: "\e619";
+}
 
 .mi-tadpole:before {
     content: "\e615";
