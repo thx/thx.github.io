@@ -64,23 +64,16 @@ a {
 /**
  * 引入Logo字体图标
  */
-/*@font-face {
-  font-family: 'iconfont';
-  src: url('//at.alicdn.com/t/font_xxqssmnmc7rjm7vi.eot');
-  src: url('//at.alicdn.com/t/font_xxqssmnmc7rjm7vi.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_xxqssmnmc7rjm7vi.woff') format('woff'),
-  url('//at.alicdn.com/t/font_xxqssmnmc7rjm7vi.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_xxqssmnmc7rjm7vi.svg#iconfont') format('svg');
-}*/
+
 @font-face {
   font-family: 'iconfont';  /* project id 497 */
-  src: url('//at.alicdn.com/t/font_f79zw43fzx91kyb9.eot');
-  src: url('//at.alicdn.com/t/font_f79zw43fzx91kyb9.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_f79zw43fzx91kyb9.woff') format('woff'),
-  url('//at.alicdn.com/t/font_f79zw43fzx91kyb9.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_f79zw43fzx91kyb9.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_497_xm8ig2k0mwl.eot');
+  src: url('//at.alicdn.com/t/font_497_xm8ig2k0mwl.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_497_xm8ig2k0mwl.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_497_xm8ig2k0mwl.woff') format('woff'),
+  url('//at.alicdn.com/t/font_497_xm8ig2k0mwl.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_497_xm8ig2k0mwl.svg#iconfont') format('svg');
 }
-
 
 .iconfont,
 .iconlogo,
